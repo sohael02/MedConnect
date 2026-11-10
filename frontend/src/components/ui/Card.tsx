@@ -15,9 +15,9 @@ export function Card({
   ...props
 }: CardProps) {
   const variantClasses = {
-    default: 'bg-white border border-secondary-200 shadow-card',
-    outlined: 'bg-white border border-secondary-300',
-    elevated: 'bg-white border border-secondary-200 shadow-lg',
+    default: 'bg-white dark:bg-secondary-800 border border-secondary-200 dark:border-secondary-700 shadow-card',
+    outlined: 'bg-white dark:bg-secondary-800 border border-secondary-300 dark:border-secondary-600',
+    elevated: 'bg-white dark:bg-secondary-800 border border-secondary-200 dark:border-secondary-700 shadow-lg',
   };
 
   const paddingClasses = {
@@ -61,7 +61,7 @@ export function CardTitle({
   ...props
 }: React.HTMLAttributes<HTMLHeadingElement>) {
   return (
-    <h3 className={cn('text-lg font-semibold text-secondary-900', className)} {...props}>
+    <h3 className={cn('text-lg font-semibold text-secondary-900 dark:text-white', className)} {...props}>
       {children}
     </h3>
   );
@@ -73,7 +73,7 @@ export function CardDescription({
   ...props
 }: React.HTMLAttributes<HTMLParagraphElement>) {
   return (
-    <p className={cn('text-sm text-secondary-500 mt-1', className)} {...props}>
+    <p className={cn('text-sm text-secondary-500 dark:text-secondary-400 mt-1', className)} {...props}>
       {children}
     </p>
   );
@@ -97,7 +97,7 @@ export function CardFooter({
   ...props
 }: React.HTMLAttributes<HTMLDivElement>) {
   return (
-    <div className={cn('mt-4 pt-4 border-t border-secondary-100 flex items-center gap-2', className)} {...props}>
+    <div className={cn('mt-4 pt-4 border-t border-secondary-100 dark:border-secondary-700 flex items-center gap-2', className)} {...props}>
       {children}
     </div>
   );

@@ -22,7 +22,7 @@ export function Skeleton({
   return (
     <div
       className={cn(
-        'animate-pulse bg-secondary-200',
+        'animate-pulse bg-secondary-200 dark:bg-secondary-700',
         variantClasses[variant],
         className
       )}

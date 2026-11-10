@@ -5,7 +5,7 @@ import { Button } from '../ui/Button';
 import { Badge } from '../ui/Badge';
 import { useGeolocation } from '../../hooks/useGeolocation';
 import { SearchHistoryService } from '../../services/searchHistory';
-import { geolocationService } from '../../services/geolocation';
+import { useToast } from '../../components/ui/Toaster';
 import type { SearchHistoryItem, LocationCoords } from '../../types';
 
 interface SearchFormProps {
@@ -15,14 +15,12 @@ interface SearchFormProps {
     radiusKm: number;
   }) => void;
   isLoading?: boolean;
-  isGeolocating?: boolean;
   defaultRadiusKm?: number;
 }
 
 export function SearchForm({
   onSearch,
   isLoading = false,
-  isGeolocating = false,
   defaultRadiusKm = 10,
 }: SearchFormProps) {
   const [medicine, setMedicine] = useState('');
@@ -33,8 +31,16 @@ export function SearchForm({
   const [addressSuggestions, setAddressSuggestions] = useState<LocationCoords[]>([]);
   const [selectedSuggestion, setSelectedSuggestion] = useState(-1);
   
-  const { geocodeAddress, searchAddresses } = useGeolocation();
+  const { 
+    getCurrentLocation, 
+    geocodeAddress, 
+    searchAddresses, 
+    reverseGeocode,
+    isLoading: isGeolocating 
+  } = useGeolocation();
+  const { showToast } = useToast();
   const inputRef = useRef<HTMLInputElement>(null);
+  const locationInputRef = useRef<HTMLInputElement>(null);
   const suggestionsRef = useRef<HTMLDivElement>(null);
 
   const history = SearchHistoryService.getHistory();
@@ -58,37 +64,9 @@ export function SearchForm({
   useEffect(() => {
     const timer = setTimeout(() => {
       fetchSuggestions(address);
-    }, 300);
+    }, 800);
     return () => clearTimeout(timer);
   }, [address, fetchSuggestions]);
-
-  // Handle keyboard navigation for suggestions
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (!showHistory && addressSuggestions.length === 0) return;
-
-      if (e.key === 'ArrowDown') {
-        e.preventDefault();
-        setSelectedSuggestion((prev) => Math.min(prev + 1, addressSuggestions.length - 1));
-      } else if (e.key === 'ArrowUp') {
-        e.preventDefault();
-        setSelectedSuggestion((prev) => Math.max(prev - 1, -1));
-      } else if (e.key === 'Enter') {
-        e.preventDefault();
-        if (selectedSuggestion >= 0 && addressSuggestions[selectedSuggestion]) {
-          selectSuggestion(addressSuggestions[selectedSuggestion]);
-        } else if (address.trim()) {
-          handleGeocode();
-        }
-      } else if (e.key === 'Escape') {
-        setAddressSuggestions([]);
-        setShowHistory(false);
-      }
-    };
-
-    document.addEventListener('keydown', handleKeyDown);
-    return () => document.removeEventListener('keydown', handleKeyDown);
-  }, [addressSuggestions, selectedSuggestion, showHistory]);
 
   // Click outside to close suggestions
   useEffect(() => {
@@ -103,9 +81,32 @@ export function SearchForm({
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
+  // Handle keyboard navigation for location suggestions (attached directly to input)
+  const handleLocationKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (addressSuggestions.length === 0) return;
+
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      setSelectedSuggestion((prev) => Math.min(prev + 1, addressSuggestions.length - 1));
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      setSelectedSuggestion((prev) => Math.max(prev - 1, -1));
+    } else if (e.key === 'Enter') {
+      e.preventDefault();
+      if (selectedSuggestion >= 0 && addressSuggestions[selectedSuggestion]) {
+        selectSuggestion(addressSuggestions[selectedSuggestion]);
+      } else if (address.trim()) {
+        handleGeocode();
+      }
+    } else if (e.key === 'Escape') {
+      setAddressSuggestions([]);
+      setShowHistory(false);
+    }
+  };
+
   const selectSuggestion = (suggestion: LocationCoords) => {
     setLocation(suggestion);
-    setAddress(suggestion.address ?? '');
+    setAddress(suggestion.address || '');
     setAddressSuggestions([]);
     setShowHistory(false);
     if (inputRef.current) inputRef.current.blur();
@@ -125,12 +126,31 @@ export function SearchForm({
 
   const handleUseCurrentLocation = async () => {
     try {
-      const coords = await geolocationService.getCurrentLocation();
-      const result = await geolocationService.reverseGeocode(coords.latitude, coords.longitude);
-      setLocation(coords);
-      setAddress(result);
+      const coords = await getCurrentLocation();
+      // Get address from coordinates using reverse geocoding
+      const addressStr = await reverseGeocode(coords.latitude, coords.longitude);
+      const locationWithAddress = {
+        latitude: coords.latitude,
+        longitude: coords.longitude,
+        address: addressStr,
+      };
+      setLocation(locationWithAddress);
+      setAddress(addressStr);
+      showToast({
+        type: 'success',
+        title: 'Location found',
+        message: 'Using your current location for search',
+        duration: 3000,
+      });
     } catch (error) {
       console.error('Failed to get current location:', error);
+      const errorMessage = error instanceof Error ? error.message : 'Failed to get location';
+      showToast({
+        type: 'error',
+        title: 'Location access denied',
+        message: errorMessage + '. Please enter your location manually or enable location access in browser settings.',
+        duration: 5000,
+      });
     }
   };
 
@@ -142,10 +162,26 @@ export function SearchForm({
     setShowHistory(false);
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!medicine.trim() || !location) return;
-    onSearch({ medicine, location, radiusKm });
+    if (!medicine.trim()) return;
+    
+    // If location is not set but address is provided, geocode it first
+    let searchLocation = location;
+    if (!searchLocation && address.trim()) {
+      try {
+        const result = await geocodeAddress(address);
+        searchLocation = result;
+        setLocation(result);
+        setAddress(result.address);
+      } catch (error) {
+        console.error('Geocoding failed:', error);
+        return;
+      }
+    }
+    
+    if (!searchLocation) return;
+    onSearch({ medicine, location: searchLocation, radiusKm });
     setShowHistory(false);
   };
 
@@ -201,15 +237,15 @@ export function SearchForm({
         {showHistory && history.length > 0 && (
           <div
             id="medicine-suggestions"
-            className="absolute z-10 w-full mt-1 bg-white border border-secondary-200 rounded-lg shadow-lg overflow-hidden"
+            className="absolute z-10 w-full mt-1 bg-white dark:bg-secondary-800 border border-secondary-200 dark:border-secondary-700 rounded-lg shadow-lg overflow-hidden"
             role="listbox"
           >
-            <div className="px-3 py-2 border-b border-secondary-100 flex items-center justify-between">
-              <span className="text-sm font-medium text-secondary-700">Recent Searches</span>
+            <div className="px-3 py-2 border-b border-secondary-100 dark:border-secondary-700 flex items-center justify-between">
+              <span className="text-sm font-medium text-secondary-700 dark:text-secondary-300">Recent Searches</span>
               <button
                 type="button"
                 onClick={() => SearchHistoryService.clearHistory()}
-                className="text-xs text-secondary-500 hover:text-secondary-700"
+                className="text-xs text-secondary-500 dark:text-secondary-400 hover:text-secondary-700 dark:hover:text-secondary-200"
               >
                 Clear all
               </button>
@@ -219,13 +255,13 @@ export function SearchForm({
                 key={item.id}
                 type="button"
                 onClick={() => handleHistorySelect(item)}
-                className="w-full px-3 py-2 text-left hover:bg-secondary-50 transition-colors flex items-center gap-3"
+                className="w-full px-3 py-2 text-left hover:bg-secondary-50 dark:hover:bg-secondary-700/50 transition-colors flex items-center gap-3"
                 role="option"
               >
-                <History className="h-4 w-4 text-secondary-400 flex-shrink-0" />
+                <History className="h-4 w-4 text-secondary-400 dark:text-secondary-500 flex-shrink-0" />
                 <div className="flex-1 min-w-0">
-                  <p className="text-sm font-medium text-secondary-900 truncate">{item.medicine}</p>
-                  <p className="text-xs text-secondary-500 truncate">{item.location.address}</p>
+                  <p className="text-sm font-medium text-secondary-900 dark:text-white truncate">{item.medicine}</p>
+                  <p className="text-xs text-secondary-500 dark:text-secondary-400 truncate">{item.location.address}</p>
                 </div>
                 <Badge variant="gray" size="sm">{item.radiusKm}km</Badge>
               </button>
@@ -240,8 +276,9 @@ export function SearchForm({
           Location
         </label>
         <div className="relative">
-          <MapPin className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-secondary-400" />
+          <MapPin className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-secondary-400 dark:text-secondary-500" />
           <input
+            ref={locationInputRef}
             id="location"
             type="text"
             value={address}
@@ -249,6 +286,7 @@ export function SearchForm({
               setAddress(e.target.value);
               if (!location) setShowHistory(false);
             }}
+            onKeyDown={handleLocationKeyDown}
             placeholder="Enter address, area, or landmark"
             className="input pl-10 pr-12"
             disabled={isLoading || isGeolocating}
@@ -257,36 +295,41 @@ export function SearchForm({
             aria-controls="location-suggestions"
             aria-expanded={addressSuggestions.length > 0}
           />
-          <div className="absolute right-4 top-1/2 -translate-y-1/2 flex items-center gap-1">
-            {isGeolocating && <Loader2 className="h-5 w-5 animate-spin text-primary-600" />}
+          {location && (
             <button
               type="button"
-              onClick={handleUseCurrentLocation}
-              disabled={isLoading || isGeolocating}
-              className="p-1.5 rounded-lg text-secondary-400 hover:text-secondary-600 hover:bg-secondary-100 transition-colors disabled:opacity-50"
-              aria-label="Use current location"
+              onClick={clearLocation}
+              className="absolute right-4 top-1/2 -translate-y-1/2 p-1.5 rounded-lg text-secondary-400 dark:text-secondary-500 hover:text-secondary-600 dark:hover:text-secondary-300 hover:bg-secondary-100 dark:hover:bg-secondary-700 transition-colors"
+              aria-label="Clear location"
             >
-              <MapPin className="h-5 w-5" />
+              <X className="h-5 w-5" />
             </button>
-            {location && (
-              <button
-                type="button"
-                onClick={clearLocation}
-                className="p-1.5 rounded-lg text-secondary-400 hover:text-secondary-600 hover:bg-secondary-100 transition-colors"
-                aria-label="Clear location"
-              >
-                <X className="h-5 w-5" />
-              </button>
             )}
-          </div>
         </div>
+        
+        {/* Use Current Location Button - More Visible */}
+        <button
+          type="button"
+          onClick={handleUseCurrentLocation}
+          disabled={isLoading || isGeolocating}
+          className="mt-2 w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-primary-600 text-white font-medium hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+          aria-label="Use current location"
+        >
+          {isGeolocating && <Loader2 className="h-5 w-5 animate-spin" />}
+          <MapPin className="h-5 w-5" />
+          <span>{isGeolocating ? 'Finding location...' : 'Use Current Location'}</span>
+        </button>
+        
+        <p className="mt-2 text-xs text-secondary-500 dark:text-secondary-400">
+          Tip: Enter street name, town, mandal, or landmark (e.g., "MG Road, Vijayawada" or "Mangalagiri Bus Stand")
+        </p>
         
         {/* Address Suggestions */}
         {addressSuggestions.length > 0 && (
           <div
             id="location-suggestions"
             ref={suggestionsRef}
-            className="absolute z-10 w-full mt-1 bg-white border border-secondary-200 rounded-lg shadow-lg overflow-hidden max-h-60 overflow-y-auto"
+            className="absolute z-10 w-full mt-1 bg-white dark:bg-secondary-800 border border-secondary-200 dark:border-secondary-700 rounded-lg shadow-lg overflow-hidden max-h-60 overflow-y-auto"
             role="listbox"
           >
             {addressSuggestions.map((suggestion, index) => (
@@ -295,14 +338,14 @@ export function SearchForm({
                 type="button"
                 onClick={() => selectSuggestion(suggestion)}
                 className={cn(
-                  'w-full px-3 py-2 text-left hover:bg-secondary-50 transition-colors flex items-center gap-3',
-                  index === selectedSuggestion && 'bg-primary-50'
+                  'w-full px-3 py-2 text-left hover:bg-secondary-50 dark:hover:bg-secondary-700/50 transition-colors flex items-center gap-3',
+                  index === selectedSuggestion && 'bg-primary-50 dark:bg-primary-900/30'
                 )}
                 role="option"
                 aria-selected={index === selectedSuggestion}
               >
-                <MapPin className="h-4 w-4 text-secondary-400 flex-shrink-0" />
-                <p className="text-sm text-secondary-900 truncate">{suggestion.address}</p>
+                <MapPin className="h-4 w-4 text-secondary-400 dark:text-secondary-500 flex-shrink-0" />
+                <p className="text-sm text-secondary-900 dark:text-white truncate">{suggestion.address}</p>
               </button>
             ))}
           </div>
@@ -322,7 +365,7 @@ export function SearchForm({
                 'px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200',
                 radiusKm === radius
                   ? 'bg-primary-600 text-white shadow-sm'
-                  : 'bg-secondary-100 text-secondary-700 hover:bg-secondary-200'
+                  : 'bg-secondary-100 text-secondary-700 hover:bg-secondary-200 dark:bg-secondary-700 dark:text-secondary-300 dark:hover:bg-secondary-600'
               )}
             >
               {radius} km

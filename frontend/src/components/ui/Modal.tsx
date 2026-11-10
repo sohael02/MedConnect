@@ -107,22 +107,22 @@ export function Modal({
       <div
         ref={contentRef}
         className={cn(
-          'relative w-full bg-white rounded-xl shadow-xl animate-slide-up',
+          'relative w-full bg-white dark:bg-secondary-800 rounded-xl shadow-xl animate-slide-up',
           sizeClasses[size]
         )}
         tabIndex={-1}
         onClick={(e) => e.stopPropagation()}
       >
         {(title || showCloseButton) && (
-          <div className="flex items-start justify-between p-6 border-b border-secondary-100">
+          <div className="flex items-start justify-between p-6 border-b border-secondary-100 dark:border-secondary-700">
             <div>
               {title && (
-                <h2 id="modal-title" className="text-lg font-semibold text-secondary-900">
+                <h2 id="modal-title" className="text-lg font-semibold text-secondary-900 dark:text-white">
                   {title}
                 </h2>
               )}
               {description && (
-                <p id="modal-description" className="mt-1 text-sm text-secondary-500">
+                <p id="modal-description" className="mt-1 text-sm text-secondary-500 dark:text-secondary-400">
                   {description}
                 </p>
               )}
@@ -130,7 +130,7 @@ export function Modal({
             {showCloseButton && (
               <button
                 onClick={onClose}
-                className="p-1 rounded-lg text-secondary-400 hover:text-secondary-600 hover:bg-secondary-100 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500"
+                className="p-1 rounded-lg text-secondary-400 dark:text-secondary-500 hover:text-secondary-600 dark:hover:text-secondary-300 hover:bg-secondary-100 dark:hover:bg-secondary-700 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500"
                 aria-label="Close modal"
               >
                 <X className="h-5 w-5" />

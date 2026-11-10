@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Pill, MapPin, Phone, Mail, ExternalLink } from 'lucide-react';
+import { Pill, MapPin, Phone, Mail, Globe, ExternalLink } from 'lucide-react';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -31,7 +31,8 @@ export function Footer() {
   };
 
   const socialLinks = [
-    { icon: ExternalLink, href: 'https://github.com/sohael02/medconnect-backend', label: 'GitHub' },
+    { icon: Globe, href: 'https://github.com/sohael02/medconnect-backend', label: 'GitHub' },
+    { icon: ExternalLink, href: 'https://twitter.com/medconnect', label: 'Twitter' },
     { icon: ExternalLink, href: 'https://linkedin.com/company/medconnect', label: 'LinkedIn' },
   ];
 
@@ -165,15 +166,15 @@ export function Footer() {
               </Link>
             </div>
           </div>
-        </div>
 
-        {/* Disclaimer */}
-        <div className="mt-8 p-4 bg-secondary-800/50 rounded-lg">
-          <p className="text-xs text-secondary-500 text-center">
-            <strong>Disclaimer:</strong> MedConnect is an information service only. Medicine availability data is sourced from 
-            public datasets and may not reflect real-time stock levels. Always contact the pharmacy directly to confirm 
-            availability before visiting. MedConnect does not sell medicines or provide medical advice.
-          </p>
+          {/* Disclaimer */}
+          <div className="mt-8 p-4 bg-secondary-800/50 rounded-lg">
+            <p className="text-xs text-secondary-500 text-center">
+              <strong>Disclaimer:</strong> MedConnect is an information service only. Medicine availability data is sourced from 
+              public datasets and may not reflect real-time stock levels. Always contact the pharmacy directly to confirm 
+              availability before visiting. MedConnect does not sell medicines or provide medical advice.
+            </p>
+          </div>
         </div>
       </div>
     </footer>

@@ -1,4 +1,3 @@
-import axios, { type AxiosError, type AxiosInstance, type InternalAxiosRequestConfig } from 'axios';
 import type { 
   SearchRequest, 
   SearchResponse, 
@@ -8,7 +7,7 @@ import type {
   ApiError 
 } from '../types';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api';
+const API_BASE_URL = (import.meta as any).env?.VITE_API_BASE_URL || '/api';
 
 class ApiService {
   private client: AxiosInstance;
@@ -149,6 +148,8 @@ class ApiService {
     return 'An unexpected error occurred';
   }
 }
+
+import axios, { AxiosError, AxiosInstance, InternalAxiosRequestConfig } from 'axios';
 
 export const api = new ApiService();
 export default api;

@@ -1,0 +1,704 @@
+[
+  {
+    "id": "medicine_1",
+    "name": "Paracetamol",
+    "genericName": "paracetamol",
+    "brandName": "Paracetamol",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Paracetamol"
+  },
+  {
+    "id": "medicine_2",
+    "name": "Azithromycin",
+    "genericName": "azithromycin",
+    "brandName": "Azithromycin",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Azithromycin"
+  },
+  {
+    "id": "medicine_3",
+    "name": "Cetirizine",
+    "genericName": "cetirizine",
+    "brandName": "Cetirizine",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Cetirizine"
+  },
+  {
+    "id": "medicine_4",
+    "name": "Amoxicillin",
+    "genericName": "amoxicillin",
+    "brandName": "Amoxicillin",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Amoxicillin"
+  },
+  {
+    "id": "medicine_5",
+    "name": "Ibuprofen",
+    "genericName": "ibuprofen",
+    "brandName": "Ibuprofen",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Ibuprofen"
+  },
+  {
+    "id": "medicine_6",
+    "name": "Allegra",
+    "genericName": "fexofenadine",
+    "brandName": "Allegra",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Allegra"
+  },
+  {
+    "id": "medicine_7",
+    "name": "Pantoprazole",
+    "genericName": "pantoprazole",
+    "brandName": "Pantoprazole",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Pantoprazole"
+  },
+  {
+    "id": "medicine_8",
+    "name": "Rantac",
+    "genericName": "ranitidine",
+    "brandName": "Rantac",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Rantac"
+  },
+  {
+    "id": "medicine_9",
+    "name": "Omez",
+    "genericName": "omez",
+    "brandName": "Omez",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Omez"
+  },
+  {
+    "id": "medicine_10",
+    "name": "Erythromycin",
+    "genericName": "erythromycin",
+    "brandName": "Erythromycin",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Erythromycin"
+  },
+  {
+    "id": "medicine_11",
+    "name": "Sinarest",
+    "genericName": "paracetamol + chlorpheniramine + phenylephrine",
+    "brandName": "Sinarest",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Sinarest"
+  },
+  {
+    "id": "medicine_12",
+    "name": "Combiflam",
+    "genericName": "ibuprofen + paracetamol",
+    "brandName": "Combiflam",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Combiflam"
+  },
+  {
+    "id": "medicine_13",
+    "name": "Meftal",
+    "genericName": "mefenamic acid",
+    "brandName": "Meftal",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Meftal"
+  },
+  {
+    "id": "medicine_14",
+    "name": "Benadryl",
+    "genericName": "diphenhydramine",
+    "brandName": "Benadryl",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Benadryl"
+  },
+  {
+    "id": "medicine_15",
+    "name": "Spasmonil",
+    "genericName": "dicyclomine + paracetamol",
+    "brandName": "Spasmonil",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Spasmonil"
+  },
+  {
+    "id": "medicine_16",
+    "name": "Metformin",
+    "genericName": "metformin",
+    "brandName": "Metformin",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Metformin"
+  },
+  {
+    "id": "medicine_17",
+    "name": "Atorvastatin",
+    "genericName": "atorvastatin",
+    "brandName": "Atorvastatin",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Atorvastatin"
+  },
+  {
+    "id": "medicine_18",
+    "name": "Losartan",
+    "genericName": "losartan",
+    "brandName": "Losartan",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Losartan"
+  },
+  {
+    "id": "medicine_19",
+    "name": "Amlodipine",
+    "genericName": "amlodipine",
+    "brandName": "Amlodipine",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Amlodipine"
+  },
+  {
+    "id": "medicine_20",
+    "name": "Telmisartan",
+    "genericName": "telmisartan",
+    "brandName": "Telmisartan",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Telmisartan"
+  },
+  {
+    "id": "medicine_21",
+    "name": "Ecosprin",
+    "genericName": "aspirin",
+    "brandName": "Ecosprin",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Ecosprin"
+  },
+  {
+    "id": "medicine_22",
+    "name": "Teneligliptin",
+    "genericName": "teneligliptin",
+    "brandName": "Teneligliptin",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Teneligliptin"
+  },
+  {
+    "id": "medicine_23",
+    "name": "Janumet",
+    "genericName": "sitagliptin + metformin",
+    "brandName": "Janumet",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Janumet"
+  },
+  {
+    "id": "medicine_24",
+    "name": "Voglibose",
+    "genericName": "voglibose",
+    "brandName": "Voglibose",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Voglibose"
+  },
+  {
+    "id": "medicine_25",
+    "name": "Sitagliptin",
+    "genericName": "sitagliptin",
+    "brandName": "Sitagliptin",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Sitagliptin"
+  },
+  {
+    "id": "medicine_26",
+    "name": "Jalra",
+    "genericName": "vildagliptin",
+    "brandName": "Jalra",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Jalra"
+  },
+  {
+    "id": "medicine_27",
+    "name": "Diamicron",
+    "genericName": "gliclazide",
+    "brandName": "Diamicron",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Diamicron"
+  },
+  {
+    "id": "medicine_28",
+    "name": "Pioglitazone",
+    "genericName": "pioglitazone",
+    "brandName": "Pioglitazone",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Pioglitazone"
+  },
+  {
+    "id": "medicine_29",
+    "name": "Amaryl",
+    "genericName": "glimepiride",
+    "brandName": "Amaryl",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Amaryl"
+  },
+  {
+    "id": "medicine_30",
+    "name": "Insuman",
+    "genericName": "human insulin",
+    "brandName": "Insuman",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Insuman"
+  },
+  {
+    "id": "medicine_31",
+    "name": "Human Mixtard",
+    "genericName": "human insulin mix",
+    "brandName": "Human Mixtard",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Human Mixtard"
+  },
+  {
+    "id": "medicine_32",
+    "name": "Omeprazole",
+    "genericName": "omeprazole",
+    "brandName": "Omeprazole",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Omeprazole"
+  },
+  {
+    "id": "medicine_33",
+    "name": "Domperidone",
+    "genericName": "domperidone",
+    "brandName": "Domperidone",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Domperidone"
+  },
+  {
+    "id": "medicine_34",
+    "name": "Ondansetron",
+    "genericName": "ondansetron",
+    "brandName": "Ondansetron",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Ondansetron"
+  },
+  {
+    "id": "medicine_35",
+    "name": "Digene",
+    "genericName": "antacid",
+    "brandName": "Digene",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Digene"
+  },
+  {
+    "id": "medicine_36",
+    "name": "Sucralfate",
+    "genericName": "sucralfate",
+    "brandName": "Sucralfate",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Sucralfate"
+  },
+  {
+    "id": "medicine_37",
+    "name": "Lanzol",
+    "genericName": "lansoprazole",
+    "brandName": "Lanzol",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Lanzol"
+  },
+  {
+    "id": "medicine_38",
+    "name": "Rabeprazole",
+    "genericName": "rabeprazole",
+    "brandName": "Rabeprazole",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Rabeprazole"
+  },
+  {
+    "id": "medicine_39",
+    "name": "Itopride",
+    "genericName": "itopride",
+    "brandName": "Itopride",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Itopride"
+  },
+  {
+    "id": "medicine_40",
+    "name": "Esomac",
+    "genericName": "esomeprazole",
+    "brandName": "Esomac",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Esomac"
+  },
+  {
+    "id": "medicine_41",
+    "name": "Normaxin",
+    "genericName": "dicyclomine + chlordiazepoxide",
+    "brandName": "Normaxin",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Normaxin"
+  },
+  {
+    "id": "medicine_42",
+    "name": "Mucaine",
+    "genericName": "antacid + oxetacaine",
+    "brandName": "Mucaine",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Mucaine"
+  },
+  {
+    "id": "medicine_43",
+    "name": "Enzomac",
+    "genericName": "enzomac",
+    "brandName": "Enzomac",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Enzomac"
+  },
+  {
+    "id": "medicine_44",
+    "name": "Lomotil",
+    "genericName": "diphenoxylate + atropine",
+    "brandName": "Lomotil",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Lomotil"
+  },
+  {
+    "id": "medicine_45",
+    "name": "Ciplox",
+    "genericName": "ciprofloxacin",
+    "brandName": "Ciplox",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Ciplox"
+  },
+  {
+    "id": "medicine_46",
+    "name": "Augmentin",
+    "genericName": "amoxicillin + clavulanic acid",
+    "brandName": "Augmentin",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Augmentin"
+  },
+  {
+    "id": "medicine_47",
+    "name": "Taxim-O",
+    "genericName": "cefixime",
+    "brandName": "Taxim-O",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Taxim-O"
+  },
+  {
+    "id": "medicine_48",
+    "name": "Levoflox",
+    "genericName": "levofloxacin",
+    "brandName": "Levoflox",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Levoflox"
+  },
+  {
+    "id": "medicine_49",
+    "name": "Norflox",
+    "genericName": "norfloxacin",
+    "brandName": "Norflox",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Norflox"
+  },
+  {
+    "id": "medicine_50",
+    "name": "Ofloxacin",
+    "genericName": "ofloxacin",
+    "brandName": "Ofloxacin",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Ofloxacin"
+  },
+  {
+    "id": "medicine_51",
+    "name": "Metrogyl",
+    "genericName": "metronidazole",
+    "brandName": "Metrogyl",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Metrogyl"
+  },
+  {
+    "id": "medicine_52",
+    "name": "Doxycycline",
+    "genericName": "doxycycline",
+    "brandName": "Doxycycline",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Doxycycline"
+  },
+  {
+    "id": "medicine_53",
+    "name": "Tinidazole",
+    "genericName": "tinidazole",
+    "brandName": "Tinidazole",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Tinidazole"
+  },
+  {
+    "id": "medicine_54",
+    "name": "Amikacin",
+    "genericName": "amikacin",
+    "brandName": "Amikacin",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Amikacin"
+  },
+  {
+    "id": "medicine_55",
+    "name": "Aztreonam",
+    "genericName": "aztreonam",
+    "brandName": "Aztreonam",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Aztreonam"
+  },
+  {
+    "id": "medicine_56",
+    "name": "Linezolid",
+    "genericName": "linezolid",
+    "brandName": "Linezolid",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Linezolid"
+  },
+  {
+    "id": "medicine_57",
+    "name": "Targocid",
+    "genericName": "teicoplanin",
+    "brandName": "Targocid",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Targocid"
+  },
+  {
+    "id": "medicine_58",
+    "name": "Shelcal",
+    "genericName": "calcium + vitamin d3",
+    "brandName": "Shelcal",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Shelcal"
+  },
+  {
+    "id": "medicine_59",
+    "name": "Zincovit",
+    "genericName": "multivitamin + zinc",
+    "brandName": "Zincovit",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Zincovit"
+  },
+  {
+    "id": "medicine_60",
+    "name": "Dexorange",
+    "genericName": "iron + folic acid + vitamin b12",
+    "brandName": "Dexorange",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Dexorange"
+  },
+  {
+    "id": "medicine_61",
+    "name": "Becosules",
+    "genericName": "vitamin b complex",
+    "brandName": "Becosules",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Becosules"
+  },
+  {
+    "id": "medicine_62",
+    "name": "Neurobion Forte",
+    "genericName": "vitamin b1 + b6 + b12",
+    "brandName": "Neurobion Forte",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Neurobion Forte"
+  },
+  {
+    "id": "medicine_63",
+    "name": "Revital",
+    "genericName": "multivitamin + minerals + ginseng",
+    "brandName": "Revital",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Revital"
+  },
+  {
+    "id": "medicine_64",
+    "name": "Liv52",
+    "genericName": "herbal liver tonic",
+    "brandName": "Liv52",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Liv52"
+  },
+  {
+    "id": "medicine_65",
+    "name": "Himalaya Cystone",
+    "genericName": "herbal urinary tonic",
+    "brandName": "Himalaya Cystone",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Himalaya Cystone"
+  },
+  {
+    "id": "medicine_66",
+    "name": "Limcee",
+    "genericName": "vitamin c",
+    "brandName": "Limcee",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Limcee"
+  },
+  {
+    "id": "medicine_67",
+    "name": "Sinerga",
+    "genericName": "multivitamin",
+    "brandName": "Sinerga",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Sinerga"
+  },
+  {
+    "id": "medicine_68",
+    "name": "Ferritas",
+    "genericName": "iron",
+    "brandName": "Ferritas",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Ferritas"
+  },
+  {
+    "id": "medicine_69",
+    "name": "Astymin",
+    "genericName": "amino acids",
+    "brandName": "Astymin",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Astymin"
+  },
+  {
+    "id": "medicine_70",
+    "name": "A to Z Gold",
+    "genericName": "multivitamin + minerals",
+    "brandName": "A to Z Gold",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "A to Z Gold"
+  },
+  {
+    "id": "medicine_71",
+    "name": "Folvite",
+    "genericName": "folic acid",
+    "brandName": "Folvite",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Folvite"
+  },
+  {
+    "id": "medicine_72",
+    "name": "Cobadex CZS",
+    "genericName": "vitamin b complex + zinc",
+    "brandName": "Cobadex CZS",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Cobadex CZS"
+  },
+  {
+    "id": "medicine_73",
+    "name": "Optineuron",
+    "genericName": "mecobalamin + vitamins",
+    "brandName": "Optineuron",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Optineuron"
+  },
+  {
+    "id": "medicine_74",
+    "name": "Volini",
+    "genericName": "diclofenac",
+    "brandName": "Volini",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Volini"
+  },
+  {
+    "id": "medicine_75",
+    "name": "Rosuvastatin",
+    "genericName": "rosuvastatin",
+    "brandName": "Rosuvastatin",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Rosuvastatin"
+  },
+  {
+    "id": "medicine_76",
+    "name": "Otrivin",
+    "genericName": "xylometazoline",
+    "brandName": "Otrivin",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Otrivin"
+  },
+  {
+    "id": "medicine_77",
+    "name": "Clopidogrel",
+    "genericName": "clopidogrel",
+    "brandName": "Clopidogrel",
+    "strength": null,
+    "dosageForm": null,
+    "displayName": "Clopidogrel"
+  },
+  {
+    "id": "medicine_78",
+    "name": "Calamine",
+    "genericName": "calamine",
+    "brandName": "Calamine",
+    "strength": null,
+    "dosageForm": "Lotion",
+    "displayName": "Calamine"
+  }
+]

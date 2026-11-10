@@ -29,7 +29,7 @@ export function SearchResults({
   onViewModeChange,
 }: SearchResultsProps) {
   const pharmacies = response?.pharmacies || [];
-  const totalResults = response?.totalResults || 0;
+  const totalResults = response?.total || 0;
 
   if (isLoading) {
     return (
@@ -42,9 +42,9 @@ export function SearchResults({
   if (pharmacies.length === 0) {
     return (
       <Card padding="lg" className="text-center">
-        <MapPin className="h-16 w-16 mx-auto text-secondary-300 mb-4" />
-        <h3 className="text-lg font-semibold text-secondary-900 mb-2">No pharmacies found</h3>
-        <p className="text-secondary-500 mb-6">
+        <MapPin className="h-16 w-16 mx-auto text-secondary-300 dark:text-secondary-600 mb-4" />
+        <h3 className="text-lg font-semibold text-secondary-900 dark:text-white mb-2">No pharmacies found</h3>
+        <p className="text-secondary-500 dark:text-secondary-400 mb-6">
           We couldn't find any pharmacies with "{response?.query}" within {response?.radiusKm} km of your location.
         </p>
         <div className="flex flex-wrap items-center justify-center gap-3">
@@ -88,7 +88,7 @@ export function SearchResults({
         </div>
         
         <div className="flex items-center gap-2">
-          <div className="flex items-center gap-1 border border-secondary-200 rounded-lg overflow-hidden">
+          <div className="flex items-center gap-1 border border-secondary-200 dark:border-secondary-700 rounded-lg overflow-hidden">
             {(['list', 'map', 'split'] as const).map((mode) => (
               <button
                 key={mode}
@@ -98,7 +98,7 @@ export function SearchResults({
                   'p-2 transition-colors',
                   viewMode === mode
                     ? 'bg-primary-600 text-white'
-                    : 'text-secondary-600 hover:bg-secondary-50'
+                    : 'text-secondary-600 dark:text-secondary-400 hover:bg-secondary-50 dark:hover:bg-secondary-700/50'
                 )}
                 aria-label={`${mode} view`}
                 aria-pressed={viewMode === mode}

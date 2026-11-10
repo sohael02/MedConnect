@@ -1,6 +1,6 @@
-import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Pill, Search, Menu, X, Sun, Moon } from 'lucide-react';
+import { useState, useEffect } from 'react';
 import { cn } from '../../utils/helpers';
 import { Button } from '../ui/Button';
 
@@ -8,6 +8,15 @@ export function Header() {
   const location = useLocation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isDark, setIsDark] = useState(false);
+
+  // Apply dark mode class to document
+  useEffect(() => {
+    if (isDark) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }, [isDark]);
 
   const navLinks = [
     { path: '/', label: 'Home' },
@@ -17,7 +26,7 @@ export function Header() {
   ];
 
   return (
-    <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-sm border-b border-secondary-200">
+    <header className="sticky top-0 z-40 bg-white/95 dark:bg-secondary-900/95 backdrop-blur-sm border-b border-secondary-200 dark:border-secondary-700">
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
@@ -25,7 +34,7 @@ export function Header() {
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary-600">
               <Pill className="h-5 w-5 text-white" />
             </div>
-            <span className="text-xl font-bold text-secondary-900">MedConnect</span>
+            <span className="text-xl font-bold text-secondary-900 dark:text-white">MedConnect</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -37,8 +46,8 @@ export function Header() {
                 className={cn(
                   'text-sm font-medium transition-colors',
                   location.pathname === link.path
-                    ? 'text-primary-600'
-                    : 'text-secondary-600 hover:text-secondary-900'
+                    ? 'text-primary-600 dark:text-primary-400'
+                    : 'text-secondary-600 hover:text-secondary-900 dark:text-secondary-400 dark:hover:text-white'
                 )}
               >
                 {link.label}
@@ -57,7 +66,7 @@ export function Header() {
 
             <button
               onClick={() => setIsDark(!isDark)}
-              className="p-2 rounded-lg text-secondary-500 hover:text-secondary-700 hover:bg-secondary-100 transition-colors"
+              className="p-2 rounded-lg text-secondary-500 hover:text-secondary-700 hover:bg-secondary-100 dark:text-secondary-400 dark:hover:text-secondary-200 dark:hover:bg-secondary-800 transition-colors"
               aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
             >
               {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
@@ -65,7 +74,7 @@ export function Header() {
 
             {/* Mobile menu button */}
             <button
-              className="md:hidden p-2 rounded-lg text-secondary-500 hover:text-secondary-700 hover:bg-secondary-100 transition-colors"
+              className="md:hidden p-2 rounded-lg text-secondary-500 hover:text-secondary-700 hover:bg-secondary-100 dark:text-secondary-400 dark:hover:text-secondary-200 dark:hover:bg-secondary-800 transition-colors"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
               aria-expanded={isMenuOpen}
@@ -77,7 +86,7 @@ export function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-secondary-200">
+          <div className="md:hidden py-4 border-t border-secondary-200 dark:border-secondary-700">
             <div className="flex flex-col gap-2">
               {navLinks.map((link) => (
                 <Link
@@ -86,13 +95,13 @@ export function Header() {
                   className={cn(
                     'px-3 py-2 rounded-lg text-base font-medium transition-colors',
                     location.pathname === link.path
-                      ? 'bg-primary-50 text-primary-600'
-                      : 'text-secondary-600 hover:bg-secondary-50'
+                      ? 'bg-primary-50 text-primary-600 dark:bg-primary-900/30 dark:text-primary-400'
+                      : 'text-secondary-600 hover:bg-secondary-50 dark:text-secondary-400 dark:hover:bg-secondary-800'
                   )}
                   onClick={() => setIsMenuOpen(false)}
-                >
-                  {link.label}
-                </Link>
+                  >
+                    {link.label}
+                  </Link>
               ))}
               <Link to="/search" onClick={() => setIsMenuOpen(false)}>
                 <Button className="w-full justify-center">

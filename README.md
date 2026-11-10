@@ -1,150 +1,205 @@
 # MedConnect
 
-MedConnect is a pharmacy discovery and medicine availability platform that helps users find nearby pharmacies with the medicines they need.
+**Pharmacy Discovery and Medicine Availability Platform**
+
+MedConnect helps users find nearby pharmacies that have the medicines they need. Search by medicine name, brand, strength, or dosage form, and see pharmacies sorted by distance with interactive maps.
 
 ## Features
 
-- **Smart Medicine Search**: Search by medicine name, brand, strength, or dosage form
-- **Location-Aware Results**: Find pharmacies near you with accurate distance calculations
-- **Interactive Maps**: View pharmacy locations on an interactive map with OpenStreetMap
-- **Verified Inventory Data**: Browse pharmacy inventories with clear availability status
-- **Privacy-First**: Location data processed locally, never stored
-- **Responsive Design**: Works on mobile, tablet, and desktop
+- 🔍 **Smart Medicine Search** - Search by medicine name, brand, strength (e.g., "500mg"), or dosage form (tablet, syrup)
+- 📍 **Location-Aware Results** - Use current location or enter an address manually
+- 🗺️ **Interactive Maps** - View pharmacies on OpenStreetMap with distance calculations
+- 📊 **Verified Inventory Data** - Browse 39 pharmacies with 78 unique medicines (622 inventory records)
+- 🛡️ **Privacy-First** - Location data processed locally, never stored
+- 📱 **Responsive Design** - Works on mobile, tablet, and desktop
+- ⚡ **Fast Search** - Debounced search with autocomplete suggestions
 
 ## Tech Stack
 
-### Backend
-- Java 21
-- Spring Boot 3.4
-- Spring Data JPA
-- Spring Security
-- Spring Boot Actuator
-- Flyway (Database Migrations)
-- MySQL
-- MapStruct (DTO Mapping)
-- Lombok
-- SpringDoc OpenAPI (Swagger)
-
-### Frontend
-- React 18
-- TypeScript
-- Vite
-- Tailwind CSS v4
-- React Router
-- React Leaflet (Maps)
-- TanStack Query
-- Axios
-- Lucide React (Icons)
-
-### Database
-- MySQL 8.0+
-- Flyway Migrations
+| Layer | Technology |
+|-------|------------|
+| **Frontend** | React 18 + TypeScript + Vite |
+| **Styling** | Tailwind CSS v3 |
+| **Routing** | React Router v6 |
+| **Maps** | Leaflet + React Leaflet + OpenStreetMap |
+| **Icons** | Lucide React |
+| **Backend** | Node.js + Express.js |
+| **Data** | JSON files (pharmacies, medicines, inventory) |
+| **Geocoding** | OpenStreetMap Nominatim |
+| **Monorepo** | npm workspaces + concurrently |
 
 ## Project Structure
 
 ```
 Medconnect/
-├── backend/                 # Spring Boot backend
-│   ├── src/main/java/      # Java source code
-│   ├── src/main/resources/ # Configuration, migrations
-│   └── pom.xml             # Maven build file
-├── frontend/               # React frontend
-│   ├── src/                # TypeScript/React source
-│   ├── public/             # Static assets
-│   ├── package.json        # npm dependencies
-│   └── vite.config.ts      # Vite configuration
-├── database/               # Database scripts
-├── docs/                   # Documentation
-├── scripts/                # Utility scripts
-└── .gitignore
+├── package.json              # Root package.json with concurrently
+├── .gitignore
+├── README.md
+├── backend/
+│   ├── package.json
+│   ├── server.js             # Express server
+│   ├── import-data.js        # Data import script
+│   ├── data/
+│   │   ├── pharmacies.json   # 39 pharmacies
+│   │   ├── medicines.json    # 78 unique medicines
+│   │   └── inventory.json    # 622 inventory entries
+│   └── routes/               # API routes
+├── frontend/
+│   ├── package.json
+│   ├── vite.config.ts
+│   ├── tailwind.config.js
+│   ├── tsconfig.json
+│   ├── index.html
+│   ├── src/
+│   │   ├── main.tsx
+│   │   ├── App.tsx
+│   │   ├── index.css
+│   │   ├── components/
+│   │   │   └── Layout.tsx
+│   │   ├── pages/
+│   │   │   ├── Home.tsx
+│   │   │   ├── Search.tsx
+│   │   │   ├── Pharmacies.tsx
+│   │   │   ├── PharmacyDetail.tsx
+│   │   │   └── Medicines.tsx
+│   │   └── main.tsx
+│   └── public/
+└── docs/
 ```
 
-## Getting Started
+## Quick Start
 
 ### Prerequisites
+- Node.js 18+ and npm
+- Git (optional)
 
-- Java 21+
-- Node.js 18+
-- MySQL 8.0+
-- Maven 3.9+
+### One-Command Setup
 
-### Backend Setup
-
-1. Create a MySQL database:
-```sql
-CREATE DATABASE medconnect CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-```
-
-2. Configure environment variables (copy `.env.example` to `.env`):
 ```bash
-cd backend
-cp .env.example .env
-# Edit .env with your database credentials
-```
+# Clone and enter directory
+cd C:\Users\dell\Desktop\Medconnect
 
-3. Run the backend:
-```bash
-cd backend
-./mvnw spring-boot:run
-```
+# Install all dependencies (run once)
+npm run install:all
 
-The backend will start on `http://localhost:8080/api`
-
-### Frontend Setup
-
-1. Install dependencies:
-```bash
-cd frontend
-npm install
-```
-
-2. Configure environment variables (copy `.env.example` to `.env.local`):
-```bash
-cp .env.example .env.local
-# Edit .env.local with your API URL
-```
-
-3. Run the frontend:
-```bash
+# Start development servers (frontend + backend)
 npm run dev
 ```
 
-The frontend will start on `http://localhost:5173`
+That's it! The application will be available at:
+- **Frontend**: http://localhost:5173
+- **Backend API**: http://localhost:5000
+- **API Health**: http://localhost:5000/api/health
 
-### API Documentation
+### Manual Setup (if needed)
 
-Swagger UI is available at: `http://localhost:8080/api/swagger-ui.html`
+```bash
+# Install root dependencies
+npm install
+
+# Install backend dependencies
+cd backend && npm install
+
+# Install frontend dependencies
+cd ../frontend && npm install
+
+# Start both (from root)
+cd .. && npm run dev
+```
 
 ## API Endpoints
 
-### Health
+### Health & Info
 - `GET /api/health` - Health check
 
-### Search
-- `POST /api/search` - Search pharmacies by medicine and location
-- `GET /api/search` - Search pharmacies (GET version)
-
 ### Pharmacies
-- `GET /api/pharmacies` - List all pharmacies (paginated)
-- `GET /api/pharmacies/{id}` - Get pharmacy by ID
-- `GET /api/pharmacies/search?name=` - Search pharmacies by name
+- `GET /api/pharmacies` - List pharmacies (paginated)
+- `GET /api/pharmacies/:id` - Get pharmacy details
+- `GET /api/pharmacies/:id/inventory` - Get pharmacy inventory
 
 ### Medicines
-- `GET /api/medicines` - List all medicines (paginated)
-- `GET /api/medicines/{id}` - Get medicine by ID
-- `GET /api/medicines/search?q=` - Search medicines by name
-- `GET /api/medicines/search/filter` - Search with strength/dosage filters
+- `GET /api/medicines` - List medicines (paginated)
+- `GET /api/medicines/search?q=` - Search medicines
+
+### Search
+- `POST /api/search` - Search pharmacies by medicine + location
+  ```json
+  {
+    "medicine": "paracetamol",
+    "latitude": 15.2156,
+    "longitude": 79.9034,
+    "radiusKm": 10
+  }
+  ```
+
+### Geocoding
+- `GET /api/geocode?q=` - Forward geocode (address → coordinates)
+- `GET /api/reverse-geocode?lat=&lon=` - Reverse geocode (coordinates → address)
+
+### Admin
+- `PATCH /api/admin/inventory/:id` - Update inventory (availability, quantity, price)
+
+## Data
+
+The application uses JSON files for data storage:
+
+- **pharmacies.json** - 39 pharmacies across Kandukur, Ongole, Nellore, Vijayawada (Andhra Pradesh)
+- **medicines.json** - 78 unique medicines with normalized names, strengths, dosage forms
+- **inventory.json** - 622 inventory entries linking pharmacies to medicines
+
+Data source: Original dataset from `med_data.json` with 40 pharmacy records, processed to normalize medicine names, extract strengths/dosage forms, and create proper relational structure.
+
+## Pages
+
+| Route | Description |
+|-------|-------------|
+| `/` | Landing page with features, stats, how-it-works |
+| `/search` | Main search page with medicine + location search |
+| `/pharmacies` | Browse all pharmacies with search |
+| `/pharmacies/:id` | Pharmacy detail with map and medicines |
+| `/medicines` | Browse medicine catalog |
+
+## Development
+
+### Running Tests
+```bash
+# Frontend
+cd frontend && npm run test
+
+# Backend
+cd backend && npm test
+```
+
+### Building for Production
+```bash
+npm run build
+```
+
+### Environment Variables
+
+**Backend** (`backend/.env`):
+```env
+PORT=5000
+NODE_ENV=development
+```
+
+**Frontend** (`frontend/.env.local`):
+```env
+VITE_API_URL=http://localhost:5000
+```
 
 ## Data Import
 
-The backend includes a data import runner that loads pharmacy and medicine data from `med_data.json`. To enable:
+To re-import data from the original `med_data.json`:
 
-```yaml
-# application.yml
-app:
-  import:
-    enabled: true
+```bash
+cd backend && node import-data.js
 ```
+
+This reads from `../backend-old/med_data.json` and creates:
+- `data/pharmacies.json`
+- `data/medicines.json`
+- `data/inventory.json`
 
 ## License
 
@@ -153,3 +208,11 @@ MIT License - see LICENSE file for details.
 ## Disclaimer
 
 MedConnect is an information service only. Medicine availability data is sourced from public datasets and may not reflect real-time stock levels. Always contact the pharmacy directly to confirm availability before visiting. MedConnect does not sell medicines or provide medical advice.
+
+## Credits
+
+- **Map tiles**: OpenStreetMap contributors
+- **Geocoding**: OpenStreetMap Nominatim
+- **Icons**: Lucide React
+- **Map library**: Leaflet + React Leaflet
+- **Original data**: Public pharmacy dataset from Andhra Pradesh, India

@@ -13,11 +13,11 @@ export function Badge({
   ...props
 }: BadgeProps) {
   const variantClasses = {
-    success: 'bg-green-100 text-green-800',
-    warning: 'bg-yellow-100 text-yellow-800',
-    error: 'bg-red-100 text-red-800',
-    info: 'bg-blue-100 text-blue-800',
-    gray: 'bg-secondary-100 text-secondary-800',
+    success: 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400',
+    warning: 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400',
+    error: 'bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-400',
+    info: 'bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-400',
+    gray: 'bg-secondary-100 text-secondary-800 dark:bg-secondary-700 dark:text-secondary-300',
   };
 
   const sizeClasses = {
@@ -47,27 +47,27 @@ interface StatusBadgeProps {
 
 export function StatusBadge({ status, showIcon = false }: StatusBadgeProps) {
   const variants: Record<string, 'success' | 'warning' | 'error' | 'info' | 'gray'> = {
-    IN_STOCK: 'success',
-    OUT_OF_STOCK: 'error',
-    LIMITED: 'warning',
-    UNVERIFIED: 'gray',
-    DISCONTINUED: 'gray',
+    in_stock: 'success',
+    out_of_stock: 'error',
+    limited: 'warning',
+    unverified: 'gray',
+    discontinued: 'gray',
   };
 
   const labels: Record<string, string> = {
-    IN_STOCK: 'In Stock',
-    OUT_OF_STOCK: 'Out of Stock',
-    LIMITED: 'Limited Stock',
-    UNVERIFIED: 'Availability Unverified',
-    DISCONTINUED: 'Discontinued',
+    in_stock: 'In Stock',
+    out_of_stock: 'Out of Stock',
+    limited: 'Limited Stock',
+    unverified: 'Availability Unverified',
+    discontinued: 'Discontinued',
   };
 
   const icons: Record<string, string> = {
-    IN_STOCK: 'check-circle',
-    OUT_OF_STOCK: 'x-circle',
-    LIMITED: 'alert-triangle',
-    UNVERIFIED: 'help-circle',
-    DISCONTINUED: 'archive',
+    in_stock: 'check-circle',
+    out_of_stock: 'x-circle',
+    limited: 'alert-triangle',
+    unverified: 'help-circle',
+    discontinued: 'archive',
   };
 
   const variant = variants[status] || 'gray';

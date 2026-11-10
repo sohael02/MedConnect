@@ -1,0 +1,6222 @@
+[
+  {
+    "id": "inventory_1",
+    "pharmacyId": "pharmacy_1",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_2",
+    "pharmacyId": "pharmacy_1",
+    "medicineId": "medicine_2",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_3",
+    "pharmacyId": "pharmacy_1",
+    "medicineId": "medicine_3",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_4",
+    "pharmacyId": "pharmacy_1",
+    "medicineId": "medicine_4",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_5",
+    "pharmacyId": "pharmacy_1",
+    "medicineId": "medicine_5",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_6",
+    "pharmacyId": "pharmacy_1",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_7",
+    "pharmacyId": "pharmacy_1",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_8",
+    "pharmacyId": "pharmacy_1",
+    "medicineId": "medicine_6",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_9",
+    "pharmacyId": "pharmacy_1",
+    "medicineId": "medicine_7",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_10",
+    "pharmacyId": "pharmacy_1",
+    "medicineId": "medicine_8",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_11",
+    "pharmacyId": "pharmacy_1",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_12",
+    "pharmacyId": "pharmacy_1",
+    "medicineId": "medicine_9",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_13",
+    "pharmacyId": "pharmacy_1",
+    "medicineId": "medicine_3",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_14",
+    "pharmacyId": "pharmacy_1",
+    "medicineId": "medicine_10",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_15",
+    "pharmacyId": "pharmacy_1",
+    "medicineId": "medicine_11",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_16",
+    "pharmacyId": "pharmacy_1",
+    "medicineId": "medicine_12",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_17",
+    "pharmacyId": "pharmacy_1",
+    "medicineId": "medicine_3",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_18",
+    "pharmacyId": "pharmacy_1",
+    "medicineId": "medicine_13",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_19",
+    "pharmacyId": "pharmacy_1",
+    "medicineId": "medicine_14",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_20",
+    "pharmacyId": "pharmacy_1",
+    "medicineId": "medicine_15",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_21",
+    "pharmacyId": "pharmacy_2",
+    "medicineId": "medicine_16",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_22",
+    "pharmacyId": "pharmacy_2",
+    "medicineId": "medicine_17",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_23",
+    "pharmacyId": "pharmacy_2",
+    "medicineId": "medicine_18",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_24",
+    "pharmacyId": "pharmacy_2",
+    "medicineId": "medicine_19",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_25",
+    "pharmacyId": "pharmacy_2",
+    "medicineId": "medicine_20",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_26",
+    "pharmacyId": "pharmacy_2",
+    "medicineId": "medicine_21",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_27",
+    "pharmacyId": "pharmacy_2",
+    "medicineId": "medicine_16",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_28",
+    "pharmacyId": "pharmacy_2",
+    "medicineId": "medicine_16",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_29",
+    "pharmacyId": "pharmacy_2",
+    "medicineId": "medicine_16",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_30",
+    "pharmacyId": "pharmacy_2",
+    "medicineId": "medicine_22",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_31",
+    "pharmacyId": "pharmacy_2",
+    "medicineId": "medicine_23",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_32",
+    "pharmacyId": "pharmacy_2",
+    "medicineId": "medicine_24",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_33",
+    "pharmacyId": "pharmacy_2",
+    "medicineId": "medicine_25",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_34",
+    "pharmacyId": "pharmacy_2",
+    "medicineId": "medicine_26",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_35",
+    "pharmacyId": "pharmacy_2",
+    "medicineId": "medicine_27",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_36",
+    "pharmacyId": "pharmacy_2",
+    "medicineId": "medicine_28",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_37",
+    "pharmacyId": "pharmacy_2",
+    "medicineId": "medicine_29",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_38",
+    "pharmacyId": "pharmacy_2",
+    "medicineId": "medicine_29",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_39",
+    "pharmacyId": "pharmacy_2",
+    "medicineId": "medicine_30",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_40",
+    "pharmacyId": "pharmacy_2",
+    "medicineId": "medicine_31",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_41",
+    "pharmacyId": "pharmacy_3",
+    "medicineId": "medicine_32",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_42",
+    "pharmacyId": "pharmacy_3",
+    "medicineId": "medicine_33",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_43",
+    "pharmacyId": "pharmacy_3",
+    "medicineId": "medicine_34",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_44",
+    "pharmacyId": "pharmacy_3",
+    "medicineId": "medicine_8",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_45",
+    "pharmacyId": "pharmacy_3",
+    "medicineId": "medicine_35",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_46",
+    "pharmacyId": "pharmacy_3",
+    "medicineId": "medicine_35",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_47",
+    "pharmacyId": "pharmacy_3",
+    "medicineId": "medicine_36",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_48",
+    "pharmacyId": "pharmacy_3",
+    "medicineId": "medicine_37",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_49",
+    "pharmacyId": "pharmacy_3",
+    "medicineId": "medicine_38",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_50",
+    "pharmacyId": "pharmacy_3",
+    "medicineId": "medicine_7",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_51",
+    "pharmacyId": "pharmacy_3",
+    "medicineId": "medicine_39",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_52",
+    "pharmacyId": "pharmacy_3",
+    "medicineId": "medicine_8",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_53",
+    "pharmacyId": "pharmacy_3",
+    "medicineId": "medicine_40",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_54",
+    "pharmacyId": "pharmacy_3",
+    "medicineId": "medicine_15",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_55",
+    "pharmacyId": "pharmacy_3",
+    "medicineId": "medicine_41",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_56",
+    "pharmacyId": "pharmacy_3",
+    "medicineId": "medicine_42",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_57",
+    "pharmacyId": "pharmacy_3",
+    "medicineId": "medicine_40",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_58",
+    "pharmacyId": "pharmacy_3",
+    "medicineId": "medicine_43",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_59",
+    "pharmacyId": "pharmacy_3",
+    "medicineId": "medicine_35",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_60",
+    "pharmacyId": "pharmacy_3",
+    "medicineId": "medicine_44",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_61",
+    "pharmacyId": "pharmacy_4",
+    "medicineId": "medicine_45",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_62",
+    "pharmacyId": "pharmacy_4",
+    "medicineId": "medicine_46",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_63",
+    "pharmacyId": "pharmacy_4",
+    "medicineId": "medicine_47",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_64",
+    "pharmacyId": "pharmacy_4",
+    "medicineId": "medicine_46",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_65",
+    "pharmacyId": "pharmacy_4",
+    "medicineId": "medicine_46",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_66",
+    "pharmacyId": "pharmacy_4",
+    "medicineId": "medicine_2",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_67",
+    "pharmacyId": "pharmacy_4",
+    "medicineId": "medicine_48",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_68",
+    "pharmacyId": "pharmacy_4",
+    "medicineId": "medicine_49",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_69",
+    "pharmacyId": "pharmacy_4",
+    "medicineId": "medicine_50",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_70",
+    "pharmacyId": "pharmacy_4",
+    "medicineId": "medicine_51",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_71",
+    "pharmacyId": "pharmacy_4",
+    "medicineId": "medicine_52",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_72",
+    "pharmacyId": "pharmacy_4",
+    "medicineId": "medicine_53",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_73",
+    "pharmacyId": "pharmacy_4",
+    "medicineId": "medicine_51",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_74",
+    "pharmacyId": "pharmacy_4",
+    "medicineId": "medicine_47",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_75",
+    "pharmacyId": "pharmacy_4",
+    "medicineId": "medicine_54",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_76",
+    "pharmacyId": "pharmacy_4",
+    "medicineId": "medicine_47",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_77",
+    "pharmacyId": "pharmacy_4",
+    "medicineId": "medicine_55",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_78",
+    "pharmacyId": "pharmacy_4",
+    "medicineId": "medicine_20",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_79",
+    "pharmacyId": "pharmacy_4",
+    "medicineId": "medicine_56",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_80",
+    "pharmacyId": "pharmacy_4",
+    "medicineId": "medicine_57",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_81",
+    "pharmacyId": "pharmacy_5",
+    "medicineId": "medicine_58",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_82",
+    "pharmacyId": "pharmacy_5",
+    "medicineId": "medicine_59",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_83",
+    "pharmacyId": "pharmacy_5",
+    "medicineId": "medicine_60",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_84",
+    "pharmacyId": "pharmacy_5",
+    "medicineId": "medicine_61",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_85",
+    "pharmacyId": "pharmacy_5",
+    "medicineId": "medicine_62",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_86",
+    "pharmacyId": "pharmacy_5",
+    "medicineId": "medicine_63",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_87",
+    "pharmacyId": "pharmacy_5",
+    "medicineId": "medicine_64",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_88",
+    "pharmacyId": "pharmacy_5",
+    "medicineId": "medicine_65",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_89",
+    "pharmacyId": "pharmacy_5",
+    "medicineId": "medicine_66",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_90",
+    "pharmacyId": "pharmacy_5",
+    "medicineId": "medicine_67",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_91",
+    "pharmacyId": "pharmacy_5",
+    "medicineId": "medicine_68",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_92",
+    "pharmacyId": "pharmacy_5",
+    "medicineId": "medicine_69",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_93",
+    "pharmacyId": "pharmacy_5",
+    "medicineId": "medicine_70",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_94",
+    "pharmacyId": "pharmacy_5",
+    "medicineId": "medicine_70",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_95",
+    "pharmacyId": "pharmacy_5",
+    "medicineId": "medicine_71",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_96",
+    "pharmacyId": "pharmacy_5",
+    "medicineId": "medicine_72",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_97",
+    "pharmacyId": "pharmacy_5",
+    "medicineId": "medicine_73",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_98",
+    "pharmacyId": "pharmacy_5",
+    "medicineId": "medicine_70",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_99",
+    "pharmacyId": "pharmacy_5",
+    "medicineId": "medicine_72",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_100",
+    "pharmacyId": "pharmacy_5",
+    "medicineId": "medicine_61",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_101",
+    "pharmacyId": "pharmacy_6",
+    "medicineId": "medicine_74",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_102",
+    "pharmacyId": "pharmacy_6",
+    "medicineId": "medicine_72",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_103",
+    "pharmacyId": "pharmacy_6",
+    "medicineId": "medicine_37",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_104",
+    "pharmacyId": "pharmacy_6",
+    "medicineId": "medicine_31",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_105",
+    "pharmacyId": "pharmacy_6",
+    "medicineId": "medicine_58",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_106",
+    "pharmacyId": "pharmacy_6",
+    "medicineId": "medicine_48",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_107",
+    "pharmacyId": "pharmacy_6",
+    "medicineId": "medicine_40",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_108",
+    "pharmacyId": "pharmacy_6",
+    "medicineId": "medicine_70",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_109",
+    "pharmacyId": "pharmacy_6",
+    "medicineId": "medicine_9",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_110",
+    "pharmacyId": "pharmacy_6",
+    "medicineId": "medicine_57",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_111",
+    "pharmacyId": "pharmacy_6",
+    "medicineId": "medicine_15",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_112",
+    "pharmacyId": "pharmacy_6",
+    "medicineId": "medicine_29",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_113",
+    "pharmacyId": "pharmacy_6",
+    "medicineId": "medicine_5",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_114",
+    "pharmacyId": "pharmacy_6",
+    "medicineId": "medicine_16",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_115",
+    "pharmacyId": "pharmacy_6",
+    "medicineId": "medicine_75",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_116",
+    "pharmacyId": "pharmacy_7",
+    "medicineId": "medicine_38",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_117",
+    "pharmacyId": "pharmacy_7",
+    "medicineId": "medicine_53",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_118",
+    "pharmacyId": "pharmacy_7",
+    "medicineId": "medicine_61",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_119",
+    "pharmacyId": "pharmacy_7",
+    "medicineId": "medicine_10",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_120",
+    "pharmacyId": "pharmacy_7",
+    "medicineId": "medicine_52",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_121",
+    "pharmacyId": "pharmacy_7",
+    "medicineId": "medicine_16",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_122",
+    "pharmacyId": "pharmacy_7",
+    "medicineId": "medicine_54",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_123",
+    "pharmacyId": "pharmacy_7",
+    "medicineId": "medicine_70",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_124",
+    "pharmacyId": "pharmacy_7",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_125",
+    "pharmacyId": "pharmacy_7",
+    "medicineId": "medicine_16",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_126",
+    "pharmacyId": "pharmacy_7",
+    "medicineId": "medicine_29",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_127",
+    "pharmacyId": "pharmacy_7",
+    "medicineId": "medicine_59",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_128",
+    "pharmacyId": "pharmacy_7",
+    "medicineId": "medicine_2",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_129",
+    "pharmacyId": "pharmacy_7",
+    "medicineId": "medicine_33",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_130",
+    "pharmacyId": "pharmacy_7",
+    "medicineId": "medicine_23",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_131",
+    "pharmacyId": "pharmacy_7",
+    "medicineId": "medicine_6",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_132",
+    "pharmacyId": "pharmacy_7",
+    "medicineId": "medicine_46",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_133",
+    "pharmacyId": "pharmacy_8",
+    "medicineId": "medicine_15",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_134",
+    "pharmacyId": "pharmacy_8",
+    "medicineId": "medicine_46",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_135",
+    "pharmacyId": "pharmacy_8",
+    "medicineId": "medicine_49",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_136",
+    "pharmacyId": "pharmacy_8",
+    "medicineId": "medicine_42",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_137",
+    "pharmacyId": "pharmacy_8",
+    "medicineId": "medicine_45",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_138",
+    "pharmacyId": "pharmacy_8",
+    "medicineId": "medicine_5",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_139",
+    "pharmacyId": "pharmacy_8",
+    "medicineId": "medicine_20",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_140",
+    "pharmacyId": "pharmacy_8",
+    "medicineId": "medicine_25",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_141",
+    "pharmacyId": "pharmacy_8",
+    "medicineId": "medicine_19",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_142",
+    "pharmacyId": "pharmacy_8",
+    "medicineId": "medicine_68",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_143",
+    "pharmacyId": "pharmacy_8",
+    "medicineId": "medicine_51",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_144",
+    "pharmacyId": "pharmacy_8",
+    "medicineId": "medicine_21",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_145",
+    "pharmacyId": "pharmacy_8",
+    "medicineId": "medicine_34",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_146",
+    "pharmacyId": "pharmacy_8",
+    "medicineId": "medicine_16",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_147",
+    "pharmacyId": "pharmacy_8",
+    "medicineId": "medicine_22",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_148",
+    "pharmacyId": "pharmacy_8",
+    "medicineId": "medicine_76",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_149",
+    "pharmacyId": "pharmacy_9",
+    "medicineId": "medicine_64",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_150",
+    "pharmacyId": "pharmacy_9",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_151",
+    "pharmacyId": "pharmacy_9",
+    "medicineId": "medicine_51",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_152",
+    "pharmacyId": "pharmacy_9",
+    "medicineId": "medicine_35",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_153",
+    "pharmacyId": "pharmacy_9",
+    "medicineId": "medicine_55",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_154",
+    "pharmacyId": "pharmacy_9",
+    "medicineId": "medicine_29",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_155",
+    "pharmacyId": "pharmacy_9",
+    "medicineId": "medicine_33",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_156",
+    "pharmacyId": "pharmacy_9",
+    "medicineId": "medicine_46",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_157",
+    "pharmacyId": "pharmacy_9",
+    "medicineId": "medicine_3",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_158",
+    "pharmacyId": "pharmacy_9",
+    "medicineId": "medicine_77",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_159",
+    "pharmacyId": "pharmacy_9",
+    "medicineId": "medicine_40",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_160",
+    "pharmacyId": "pharmacy_9",
+    "medicineId": "medicine_47",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_161",
+    "pharmacyId": "pharmacy_9",
+    "medicineId": "medicine_11",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_162",
+    "pharmacyId": "pharmacy_9",
+    "medicineId": "medicine_40",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_163",
+    "pharmacyId": "pharmacy_9",
+    "medicineId": "medicine_28",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_164",
+    "pharmacyId": "pharmacy_10",
+    "medicineId": "medicine_69",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_165",
+    "pharmacyId": "pharmacy_10",
+    "medicineId": "medicine_47",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_166",
+    "pharmacyId": "pharmacy_10",
+    "medicineId": "medicine_4",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_167",
+    "pharmacyId": "pharmacy_10",
+    "medicineId": "medicine_62",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_168",
+    "pharmacyId": "pharmacy_10",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_169",
+    "pharmacyId": "pharmacy_10",
+    "medicineId": "medicine_18",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_170",
+    "pharmacyId": "pharmacy_10",
+    "medicineId": "medicine_70",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_171",
+    "pharmacyId": "pharmacy_10",
+    "medicineId": "medicine_20",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_172",
+    "pharmacyId": "pharmacy_10",
+    "medicineId": "medicine_2",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_173",
+    "pharmacyId": "pharmacy_10",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_174",
+    "pharmacyId": "pharmacy_10",
+    "medicineId": "medicine_7",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_175",
+    "pharmacyId": "pharmacy_10",
+    "medicineId": "medicine_71",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_176",
+    "pharmacyId": "pharmacy_10",
+    "medicineId": "medicine_8",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_177",
+    "pharmacyId": "pharmacy_10",
+    "medicineId": "medicine_26",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_178",
+    "pharmacyId": "pharmacy_10",
+    "medicineId": "medicine_73",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_179",
+    "pharmacyId": "pharmacy_10",
+    "medicineId": "medicine_49",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_180",
+    "pharmacyId": "pharmacy_10",
+    "medicineId": "medicine_61",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_181",
+    "pharmacyId": "pharmacy_11",
+    "medicineId": "medicine_16",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_182",
+    "pharmacyId": "pharmacy_11",
+    "medicineId": "medicine_3",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_183",
+    "pharmacyId": "pharmacy_11",
+    "medicineId": "medicine_48",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_184",
+    "pharmacyId": "pharmacy_11",
+    "medicineId": "medicine_78",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_185",
+    "pharmacyId": "pharmacy_11",
+    "medicineId": "medicine_11",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_186",
+    "pharmacyId": "pharmacy_11",
+    "medicineId": "medicine_7",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_187",
+    "pharmacyId": "pharmacy_11",
+    "medicineId": "medicine_61",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_188",
+    "pharmacyId": "pharmacy_11",
+    "medicineId": "medicine_75",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_189",
+    "pharmacyId": "pharmacy_11",
+    "medicineId": "medicine_16",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_190",
+    "pharmacyId": "pharmacy_11",
+    "medicineId": "medicine_40",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_191",
+    "pharmacyId": "pharmacy_11",
+    "medicineId": "medicine_2",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_192",
+    "pharmacyId": "pharmacy_11",
+    "medicineId": "medicine_32",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_193",
+    "pharmacyId": "pharmacy_11",
+    "medicineId": "medicine_21",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_194",
+    "pharmacyId": "pharmacy_11",
+    "medicineId": "medicine_33",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_195",
+    "pharmacyId": "pharmacy_11",
+    "medicineId": "medicine_22",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_196",
+    "pharmacyId": "pharmacy_11",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_197",
+    "pharmacyId": "pharmacy_12",
+    "medicineId": "medicine_59",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_198",
+    "pharmacyId": "pharmacy_12",
+    "medicineId": "medicine_46",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_199",
+    "pharmacyId": "pharmacy_12",
+    "medicineId": "medicine_15",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_200",
+    "pharmacyId": "pharmacy_12",
+    "medicineId": "medicine_7",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_201",
+    "pharmacyId": "pharmacy_12",
+    "medicineId": "medicine_36",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_202",
+    "pharmacyId": "pharmacy_12",
+    "medicineId": "medicine_51",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_203",
+    "pharmacyId": "pharmacy_12",
+    "medicineId": "medicine_13",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_204",
+    "pharmacyId": "pharmacy_12",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_205",
+    "pharmacyId": "pharmacy_12",
+    "medicineId": "medicine_56",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_206",
+    "pharmacyId": "pharmacy_12",
+    "medicineId": "medicine_20",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_207",
+    "pharmacyId": "pharmacy_12",
+    "medicineId": "medicine_25",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_208",
+    "pharmacyId": "pharmacy_12",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_209",
+    "pharmacyId": "pharmacy_12",
+    "medicineId": "medicine_72",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_210",
+    "pharmacyId": "pharmacy_12",
+    "medicineId": "medicine_64",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_211",
+    "pharmacyId": "pharmacy_12",
+    "medicineId": "medicine_6",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_212",
+    "pharmacyId": "pharmacy_12",
+    "medicineId": "medicine_40",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_213",
+    "pharmacyId": "pharmacy_12",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_214",
+    "pharmacyId": "pharmacy_13",
+    "medicineId": "medicine_15",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_215",
+    "pharmacyId": "pharmacy_13",
+    "medicineId": "medicine_9",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_216",
+    "pharmacyId": "pharmacy_13",
+    "medicineId": "medicine_45",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_217",
+    "pharmacyId": "pharmacy_13",
+    "medicineId": "medicine_77",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_218",
+    "pharmacyId": "pharmacy_13",
+    "medicineId": "medicine_18",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_219",
+    "pharmacyId": "pharmacy_13",
+    "medicineId": "medicine_60",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_220",
+    "pharmacyId": "pharmacy_13",
+    "medicineId": "medicine_55",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_221",
+    "pharmacyId": "pharmacy_13",
+    "medicineId": "medicine_38",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_222",
+    "pharmacyId": "pharmacy_13",
+    "medicineId": "medicine_8",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_223",
+    "pharmacyId": "pharmacy_13",
+    "medicineId": "medicine_68",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_224",
+    "pharmacyId": "pharmacy_13",
+    "medicineId": "medicine_21",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_225",
+    "pharmacyId": "pharmacy_13",
+    "medicineId": "medicine_57",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_226",
+    "pharmacyId": "pharmacy_13",
+    "medicineId": "medicine_19",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_227",
+    "pharmacyId": "pharmacy_13",
+    "medicineId": "medicine_3",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_228",
+    "pharmacyId": "pharmacy_13",
+    "medicineId": "medicine_62",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_229",
+    "pharmacyId": "pharmacy_13",
+    "medicineId": "medicine_23",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_230",
+    "pharmacyId": "pharmacy_13",
+    "medicineId": "medicine_29",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_231",
+    "pharmacyId": "pharmacy_14",
+    "medicineId": "medicine_74",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_232",
+    "pharmacyId": "pharmacy_14",
+    "medicineId": "medicine_70",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_233",
+    "pharmacyId": "pharmacy_14",
+    "medicineId": "medicine_26",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_234",
+    "pharmacyId": "pharmacy_14",
+    "medicineId": "medicine_16",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_235",
+    "pharmacyId": "pharmacy_14",
+    "medicineId": "medicine_47",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_236",
+    "pharmacyId": "pharmacy_14",
+    "medicineId": "medicine_51",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_237",
+    "pharmacyId": "pharmacy_14",
+    "medicineId": "medicine_7",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_238",
+    "pharmacyId": "pharmacy_14",
+    "medicineId": "medicine_4",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_239",
+    "pharmacyId": "pharmacy_14",
+    "medicineId": "medicine_5",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_240",
+    "pharmacyId": "pharmacy_14",
+    "medicineId": "medicine_52",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_241",
+    "pharmacyId": "pharmacy_14",
+    "medicineId": "medicine_53",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_242",
+    "pharmacyId": "pharmacy_14",
+    "medicineId": "medicine_3",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_243",
+    "pharmacyId": "pharmacy_14",
+    "medicineId": "medicine_9",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_244",
+    "pharmacyId": "pharmacy_14",
+    "medicineId": "medicine_3",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_245",
+    "pharmacyId": "pharmacy_14",
+    "medicineId": "medicine_41",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_246",
+    "pharmacyId": "pharmacy_14",
+    "medicineId": "medicine_11",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_247",
+    "pharmacyId": "pharmacy_15",
+    "medicineId": "medicine_47",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_248",
+    "pharmacyId": "pharmacy_15",
+    "medicineId": "medicine_33",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_249",
+    "pharmacyId": "pharmacy_15",
+    "medicineId": "medicine_13",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_250",
+    "pharmacyId": "pharmacy_15",
+    "medicineId": "medicine_49",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_251",
+    "pharmacyId": "pharmacy_15",
+    "medicineId": "medicine_77",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_252",
+    "pharmacyId": "pharmacy_15",
+    "medicineId": "medicine_9",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_253",
+    "pharmacyId": "pharmacy_15",
+    "medicineId": "medicine_7",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_254",
+    "pharmacyId": "pharmacy_15",
+    "medicineId": "medicine_12",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_255",
+    "pharmacyId": "pharmacy_15",
+    "medicineId": "medicine_51",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_256",
+    "pharmacyId": "pharmacy_15",
+    "medicineId": "medicine_26",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_257",
+    "pharmacyId": "pharmacy_15",
+    "medicineId": "medicine_16",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_258",
+    "pharmacyId": "pharmacy_15",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_259",
+    "pharmacyId": "pharmacy_15",
+    "medicineId": "medicine_32",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_260",
+    "pharmacyId": "pharmacy_15",
+    "medicineId": "medicine_15",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_261",
+    "pharmacyId": "pharmacy_15",
+    "medicineId": "medicine_21",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_262",
+    "pharmacyId": "pharmacy_16",
+    "medicineId": "medicine_70",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_263",
+    "pharmacyId": "pharmacy_16",
+    "medicineId": "medicine_60",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_264",
+    "pharmacyId": "pharmacy_16",
+    "medicineId": "medicine_29",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_265",
+    "pharmacyId": "pharmacy_16",
+    "medicineId": "medicine_2",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_266",
+    "pharmacyId": "pharmacy_16",
+    "medicineId": "medicine_15",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_267",
+    "pharmacyId": "pharmacy_16",
+    "medicineId": "medicine_42",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_268",
+    "pharmacyId": "pharmacy_16",
+    "medicineId": "medicine_75",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_269",
+    "pharmacyId": "pharmacy_16",
+    "medicineId": "medicine_16",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_270",
+    "pharmacyId": "pharmacy_16",
+    "medicineId": "medicine_54",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_271",
+    "pharmacyId": "pharmacy_16",
+    "medicineId": "medicine_25",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_272",
+    "pharmacyId": "pharmacy_16",
+    "medicineId": "medicine_8",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_273",
+    "pharmacyId": "pharmacy_16",
+    "medicineId": "medicine_59",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_274",
+    "pharmacyId": "pharmacy_16",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_275",
+    "pharmacyId": "pharmacy_16",
+    "medicineId": "medicine_40",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_276",
+    "pharmacyId": "pharmacy_16",
+    "medicineId": "medicine_64",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_277",
+    "pharmacyId": "pharmacy_16",
+    "medicineId": "medicine_11",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_278",
+    "pharmacyId": "pharmacy_17",
+    "medicineId": "medicine_47",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_279",
+    "pharmacyId": "pharmacy_17",
+    "medicineId": "medicine_57",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_280",
+    "pharmacyId": "pharmacy_17",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_281",
+    "pharmacyId": "pharmacy_17",
+    "medicineId": "medicine_28",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_282",
+    "pharmacyId": "pharmacy_17",
+    "medicineId": "medicine_29",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_283",
+    "pharmacyId": "pharmacy_17",
+    "medicineId": "medicine_72",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_284",
+    "pharmacyId": "pharmacy_17",
+    "medicineId": "medicine_45",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_285",
+    "pharmacyId": "pharmacy_17",
+    "medicineId": "medicine_48",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_286",
+    "pharmacyId": "pharmacy_17",
+    "medicineId": "medicine_34",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_287",
+    "pharmacyId": "pharmacy_17",
+    "medicineId": "medicine_7",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_288",
+    "pharmacyId": "pharmacy_17",
+    "medicineId": "medicine_40",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_289",
+    "pharmacyId": "pharmacy_17",
+    "medicineId": "medicine_47",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_290",
+    "pharmacyId": "pharmacy_17",
+    "medicineId": "medicine_3",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_291",
+    "pharmacyId": "pharmacy_17",
+    "medicineId": "medicine_46",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_292",
+    "pharmacyId": "pharmacy_17",
+    "medicineId": "medicine_46",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_293",
+    "pharmacyId": "pharmacy_17",
+    "medicineId": "medicine_41",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_294",
+    "pharmacyId": "pharmacy_18",
+    "medicineId": "medicine_33",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_295",
+    "pharmacyId": "pharmacy_18",
+    "medicineId": "medicine_51",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_296",
+    "pharmacyId": "pharmacy_18",
+    "medicineId": "medicine_36",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_297",
+    "pharmacyId": "pharmacy_18",
+    "medicineId": "medicine_20",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_298",
+    "pharmacyId": "pharmacy_18",
+    "medicineId": "medicine_55",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_299",
+    "pharmacyId": "pharmacy_18",
+    "medicineId": "medicine_62",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_300",
+    "pharmacyId": "pharmacy_18",
+    "medicineId": "medicine_9",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_301",
+    "pharmacyId": "pharmacy_18",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_302",
+    "pharmacyId": "pharmacy_18",
+    "medicineId": "medicine_7",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_303",
+    "pharmacyId": "pharmacy_18",
+    "medicineId": "medicine_13",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_304",
+    "pharmacyId": "pharmacy_18",
+    "medicineId": "medicine_54",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_305",
+    "pharmacyId": "pharmacy_18",
+    "medicineId": "medicine_46",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_306",
+    "pharmacyId": "pharmacy_18",
+    "medicineId": "medicine_11",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_307",
+    "pharmacyId": "pharmacy_18",
+    "medicineId": "medicine_16",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_308",
+    "pharmacyId": "pharmacy_18",
+    "medicineId": "medicine_70",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_309",
+    "pharmacyId": "pharmacy_19",
+    "medicineId": "medicine_8",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_310",
+    "pharmacyId": "pharmacy_19",
+    "medicineId": "medicine_26",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_311",
+    "pharmacyId": "pharmacy_19",
+    "medicineId": "medicine_75",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_312",
+    "pharmacyId": "pharmacy_19",
+    "medicineId": "medicine_25",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_313",
+    "pharmacyId": "pharmacy_19",
+    "medicineId": "medicine_15",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_314",
+    "pharmacyId": "pharmacy_19",
+    "medicineId": "medicine_59",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_315",
+    "pharmacyId": "pharmacy_19",
+    "medicineId": "medicine_4",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_316",
+    "pharmacyId": "pharmacy_19",
+    "medicineId": "medicine_61",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_317",
+    "pharmacyId": "pharmacy_19",
+    "medicineId": "medicine_56",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_318",
+    "pharmacyId": "pharmacy_19",
+    "medicineId": "medicine_45",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_319",
+    "pharmacyId": "pharmacy_19",
+    "medicineId": "medicine_40",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_320",
+    "pharmacyId": "pharmacy_19",
+    "medicineId": "medicine_64",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_321",
+    "pharmacyId": "pharmacy_19",
+    "medicineId": "medicine_15",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_322",
+    "pharmacyId": "pharmacy_19",
+    "medicineId": "medicine_73",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_323",
+    "pharmacyId": "pharmacy_19",
+    "medicineId": "medicine_22",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_324",
+    "pharmacyId": "pharmacy_19",
+    "medicineId": "medicine_29",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_325",
+    "pharmacyId": "pharmacy_20",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_326",
+    "pharmacyId": "pharmacy_20",
+    "medicineId": "medicine_2",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_327",
+    "pharmacyId": "pharmacy_20",
+    "medicineId": "medicine_9",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_328",
+    "pharmacyId": "pharmacy_20",
+    "medicineId": "medicine_33",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_329",
+    "pharmacyId": "pharmacy_20",
+    "medicineId": "medicine_34",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_330",
+    "pharmacyId": "pharmacy_20",
+    "medicineId": "medicine_51",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_331",
+    "pharmacyId": "pharmacy_20",
+    "medicineId": "medicine_57",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_332",
+    "pharmacyId": "pharmacy_20",
+    "medicineId": "medicine_40",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_333",
+    "pharmacyId": "pharmacy_20",
+    "medicineId": "medicine_52",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_334",
+    "pharmacyId": "pharmacy_20",
+    "medicineId": "medicine_5",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_335",
+    "pharmacyId": "pharmacy_20",
+    "medicineId": "medicine_70",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_336",
+    "pharmacyId": "pharmacy_20",
+    "medicineId": "medicine_64",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_337",
+    "pharmacyId": "pharmacy_20",
+    "medicineId": "medicine_46",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_338",
+    "pharmacyId": "pharmacy_20",
+    "medicineId": "medicine_61",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_339",
+    "pharmacyId": "pharmacy_20",
+    "medicineId": "medicine_70",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_340",
+    "pharmacyId": "pharmacy_20",
+    "medicineId": "medicine_20",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_341",
+    "pharmacyId": "pharmacy_21",
+    "medicineId": "medicine_32",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_342",
+    "pharmacyId": "pharmacy_21",
+    "medicineId": "medicine_70",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_343",
+    "pharmacyId": "pharmacy_21",
+    "medicineId": "medicine_7",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_344",
+    "pharmacyId": "pharmacy_21",
+    "medicineId": "medicine_22",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_345",
+    "pharmacyId": "pharmacy_21",
+    "medicineId": "medicine_62",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_346",
+    "pharmacyId": "pharmacy_21",
+    "medicineId": "medicine_6",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_347",
+    "pharmacyId": "pharmacy_21",
+    "medicineId": "medicine_77",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_348",
+    "pharmacyId": "pharmacy_21",
+    "medicineId": "medicine_13",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_349",
+    "pharmacyId": "pharmacy_21",
+    "medicineId": "medicine_16",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_350",
+    "pharmacyId": "pharmacy_21",
+    "medicineId": "medicine_8",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_351",
+    "pharmacyId": "pharmacy_21",
+    "medicineId": "medicine_40",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_352",
+    "pharmacyId": "pharmacy_21",
+    "medicineId": "medicine_54",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_353",
+    "pharmacyId": "pharmacy_21",
+    "medicineId": "medicine_33",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_354",
+    "pharmacyId": "pharmacy_21",
+    "medicineId": "medicine_3",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_355",
+    "pharmacyId": "pharmacy_21",
+    "medicineId": "medicine_21",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_356",
+    "pharmacyId": "pharmacy_22",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_357",
+    "pharmacyId": "pharmacy_22",
+    "medicineId": "medicine_47",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_358",
+    "pharmacyId": "pharmacy_22",
+    "medicineId": "medicine_7",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_359",
+    "pharmacyId": "pharmacy_22",
+    "medicineId": "medicine_68",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_360",
+    "pharmacyId": "pharmacy_22",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_361",
+    "pharmacyId": "pharmacy_22",
+    "medicineId": "medicine_29",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_362",
+    "pharmacyId": "pharmacy_22",
+    "medicineId": "medicine_23",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_363",
+    "pharmacyId": "pharmacy_22",
+    "medicineId": "medicine_9",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_364",
+    "pharmacyId": "pharmacy_22",
+    "medicineId": "medicine_2",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_365",
+    "pharmacyId": "pharmacy_22",
+    "medicineId": "medicine_36",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_366",
+    "pharmacyId": "pharmacy_22",
+    "medicineId": "medicine_61",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_367",
+    "pharmacyId": "pharmacy_22",
+    "medicineId": "medicine_45",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_368",
+    "pharmacyId": "pharmacy_22",
+    "medicineId": "medicine_41",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_369",
+    "pharmacyId": "pharmacy_22",
+    "medicineId": "medicine_76",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_370",
+    "pharmacyId": "pharmacy_22",
+    "medicineId": "medicine_12",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_371",
+    "pharmacyId": "pharmacy_23",
+    "medicineId": "medicine_55",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_372",
+    "pharmacyId": "pharmacy_23",
+    "medicineId": "medicine_15",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_373",
+    "pharmacyId": "pharmacy_23",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_374",
+    "pharmacyId": "pharmacy_23",
+    "medicineId": "medicine_25",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_375",
+    "pharmacyId": "pharmacy_23",
+    "medicineId": "medicine_26",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_376",
+    "pharmacyId": "pharmacy_23",
+    "medicineId": "medicine_54",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_377",
+    "pharmacyId": "pharmacy_23",
+    "medicineId": "medicine_71",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_378",
+    "pharmacyId": "pharmacy_23",
+    "medicineId": "medicine_16",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_379",
+    "pharmacyId": "pharmacy_23",
+    "medicineId": "medicine_64",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_380",
+    "pharmacyId": "pharmacy_23",
+    "medicineId": "medicine_40",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_381",
+    "pharmacyId": "pharmacy_23",
+    "medicineId": "medicine_75",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_382",
+    "pharmacyId": "pharmacy_23",
+    "medicineId": "medicine_51",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_383",
+    "pharmacyId": "pharmacy_23",
+    "medicineId": "medicine_19",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_384",
+    "pharmacyId": "pharmacy_23",
+    "medicineId": "medicine_2",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_385",
+    "pharmacyId": "pharmacy_23",
+    "medicineId": "medicine_77",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_386",
+    "pharmacyId": "pharmacy_24",
+    "medicineId": "medicine_52",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_387",
+    "pharmacyId": "pharmacy_24",
+    "medicineId": "medicine_78",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_388",
+    "pharmacyId": "pharmacy_24",
+    "medicineId": "medicine_33",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_389",
+    "pharmacyId": "pharmacy_24",
+    "medicineId": "medicine_11",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_390",
+    "pharmacyId": "pharmacy_24",
+    "medicineId": "medicine_45",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_391",
+    "pharmacyId": "pharmacy_24",
+    "medicineId": "medicine_70",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_392",
+    "pharmacyId": "pharmacy_24",
+    "medicineId": "medicine_57",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_393",
+    "pharmacyId": "pharmacy_24",
+    "medicineId": "medicine_7",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_394",
+    "pharmacyId": "pharmacy_24",
+    "medicineId": "medicine_40",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_395",
+    "pharmacyId": "pharmacy_24",
+    "medicineId": "medicine_46",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_396",
+    "pharmacyId": "pharmacy_24",
+    "medicineId": "medicine_16",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_397",
+    "pharmacyId": "pharmacy_24",
+    "medicineId": "medicine_2",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_398",
+    "pharmacyId": "pharmacy_24",
+    "medicineId": "medicine_61",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_399",
+    "pharmacyId": "pharmacy_24",
+    "medicineId": "medicine_22",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_400",
+    "pharmacyId": "pharmacy_25",
+    "medicineId": "medicine_29",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_401",
+    "pharmacyId": "pharmacy_25",
+    "medicineId": "medicine_41",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_402",
+    "pharmacyId": "pharmacy_25",
+    "medicineId": "medicine_70",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_403",
+    "pharmacyId": "pharmacy_25",
+    "medicineId": "medicine_13",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_404",
+    "pharmacyId": "pharmacy_25",
+    "medicineId": "medicine_47",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_405",
+    "pharmacyId": "pharmacy_25",
+    "medicineId": "medicine_64",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_406",
+    "pharmacyId": "pharmacy_25",
+    "medicineId": "medicine_4",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_407",
+    "pharmacyId": "pharmacy_25",
+    "medicineId": "medicine_12",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_408",
+    "pharmacyId": "pharmacy_25",
+    "medicineId": "medicine_68",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_409",
+    "pharmacyId": "pharmacy_25",
+    "medicineId": "medicine_46",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_410",
+    "pharmacyId": "pharmacy_25",
+    "medicineId": "medicine_3",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_411",
+    "pharmacyId": "pharmacy_25",
+    "medicineId": "medicine_21",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_412",
+    "pharmacyId": "pharmacy_25",
+    "medicineId": "medicine_56",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_413",
+    "pharmacyId": "pharmacy_25",
+    "medicineId": "medicine_8",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_414",
+    "pharmacyId": "pharmacy_25",
+    "medicineId": "medicine_70",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_415",
+    "pharmacyId": "pharmacy_26",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_416",
+    "pharmacyId": "pharmacy_26",
+    "medicineId": "medicine_9",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_417",
+    "pharmacyId": "pharmacy_26",
+    "medicineId": "medicine_75",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_418",
+    "pharmacyId": "pharmacy_26",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_419",
+    "pharmacyId": "pharmacy_26",
+    "medicineId": "medicine_71",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_420",
+    "pharmacyId": "pharmacy_26",
+    "medicineId": "medicine_59",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_421",
+    "pharmacyId": "pharmacy_26",
+    "medicineId": "medicine_20",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_422",
+    "pharmacyId": "pharmacy_26",
+    "medicineId": "medicine_48",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_423",
+    "pharmacyId": "pharmacy_26",
+    "medicineId": "medicine_45",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_424",
+    "pharmacyId": "pharmacy_26",
+    "medicineId": "medicine_16",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_425",
+    "pharmacyId": "pharmacy_26",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_426",
+    "pharmacyId": "pharmacy_26",
+    "medicineId": "medicine_33",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_427",
+    "pharmacyId": "pharmacy_26",
+    "medicineId": "medicine_40",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_428",
+    "pharmacyId": "pharmacy_26",
+    "medicineId": "medicine_7",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_429",
+    "pharmacyId": "pharmacy_26",
+    "medicineId": "medicine_29",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_430",
+    "pharmacyId": "pharmacy_27",
+    "medicineId": "medicine_3",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_431",
+    "pharmacyId": "pharmacy_27",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_432",
+    "pharmacyId": "pharmacy_27",
+    "medicineId": "medicine_40",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_433",
+    "pharmacyId": "pharmacy_27",
+    "medicineId": "medicine_32",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_434",
+    "pharmacyId": "pharmacy_27",
+    "medicineId": "medicine_5",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_435",
+    "pharmacyId": "pharmacy_27",
+    "medicineId": "medicine_11",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_436",
+    "pharmacyId": "pharmacy_27",
+    "medicineId": "medicine_76",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_437",
+    "pharmacyId": "pharmacy_27",
+    "medicineId": "medicine_28",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_438",
+    "pharmacyId": "pharmacy_27",
+    "medicineId": "medicine_54",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_439",
+    "pharmacyId": "pharmacy_27",
+    "medicineId": "medicine_2",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_440",
+    "pharmacyId": "pharmacy_27",
+    "medicineId": "medicine_51",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_441",
+    "pharmacyId": "pharmacy_27",
+    "medicineId": "medicine_77",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_442",
+    "pharmacyId": "pharmacy_27",
+    "medicineId": "medicine_41",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_443",
+    "pharmacyId": "pharmacy_27",
+    "medicineId": "medicine_20",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_444",
+    "pharmacyId": "pharmacy_27",
+    "medicineId": "medicine_42",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_445",
+    "pharmacyId": "pharmacy_28",
+    "medicineId": "medicine_7",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_446",
+    "pharmacyId": "pharmacy_28",
+    "medicineId": "medicine_78",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_447",
+    "pharmacyId": "pharmacy_28",
+    "medicineId": "medicine_61",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_448",
+    "pharmacyId": "pharmacy_28",
+    "medicineId": "medicine_40",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_449",
+    "pharmacyId": "pharmacy_28",
+    "medicineId": "medicine_45",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_450",
+    "pharmacyId": "pharmacy_28",
+    "medicineId": "medicine_29",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_451",
+    "pharmacyId": "pharmacy_28",
+    "medicineId": "medicine_15",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_452",
+    "pharmacyId": "pharmacy_28",
+    "medicineId": "medicine_25",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_453",
+    "pharmacyId": "pharmacy_28",
+    "medicineId": "medicine_46",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_454",
+    "pharmacyId": "pharmacy_28",
+    "medicineId": "medicine_33",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_455",
+    "pharmacyId": "pharmacy_28",
+    "medicineId": "medicine_26",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_456",
+    "pharmacyId": "pharmacy_28",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_457",
+    "pharmacyId": "pharmacy_28",
+    "medicineId": "medicine_13",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_458",
+    "pharmacyId": "pharmacy_28",
+    "medicineId": "medicine_7",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_459",
+    "pharmacyId": "pharmacy_28",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_460",
+    "pharmacyId": "pharmacy_29",
+    "medicineId": "medicine_47",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_461",
+    "pharmacyId": "pharmacy_29",
+    "medicineId": "medicine_21",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_462",
+    "pharmacyId": "pharmacy_29",
+    "medicineId": "medicine_22",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_463",
+    "pharmacyId": "pharmacy_29",
+    "medicineId": "medicine_68",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_464",
+    "pharmacyId": "pharmacy_29",
+    "medicineId": "medicine_15",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_465",
+    "pharmacyId": "pharmacy_29",
+    "medicineId": "medicine_70",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_466",
+    "pharmacyId": "pharmacy_29",
+    "medicineId": "medicine_70",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_467",
+    "pharmacyId": "pharmacy_29",
+    "medicineId": "medicine_2",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_468",
+    "pharmacyId": "pharmacy_29",
+    "medicineId": "medicine_20",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_469",
+    "pharmacyId": "pharmacy_29",
+    "medicineId": "medicine_8",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_470",
+    "pharmacyId": "pharmacy_29",
+    "medicineId": "medicine_70",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_471",
+    "pharmacyId": "pharmacy_29",
+    "medicineId": "medicine_51",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_472",
+    "pharmacyId": "pharmacy_29",
+    "medicineId": "medicine_71",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_473",
+    "pharmacyId": "pharmacy_29",
+    "medicineId": "medicine_9",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_474",
+    "pharmacyId": "pharmacy_29",
+    "medicineId": "medicine_62",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_475",
+    "pharmacyId": "pharmacy_30",
+    "medicineId": "medicine_54",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_476",
+    "pharmacyId": "pharmacy_30",
+    "medicineId": "medicine_56",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_477",
+    "pharmacyId": "pharmacy_30",
+    "medicineId": "medicine_46",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_478",
+    "pharmacyId": "pharmacy_30",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_479",
+    "pharmacyId": "pharmacy_30",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_480",
+    "pharmacyId": "pharmacy_30",
+    "medicineId": "medicine_59",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_481",
+    "pharmacyId": "pharmacy_30",
+    "medicineId": "medicine_16",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_482",
+    "pharmacyId": "pharmacy_30",
+    "medicineId": "medicine_7",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_483",
+    "pharmacyId": "pharmacy_30",
+    "medicineId": "medicine_9",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_484",
+    "pharmacyId": "pharmacy_30",
+    "medicineId": "medicine_34",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_485",
+    "pharmacyId": "pharmacy_30",
+    "medicineId": "medicine_45",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_486",
+    "pharmacyId": "pharmacy_30",
+    "medicineId": "medicine_12",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_487",
+    "pharmacyId": "pharmacy_30",
+    "medicineId": "medicine_52",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_488",
+    "pharmacyId": "pharmacy_30",
+    "medicineId": "medicine_42",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_489",
+    "pharmacyId": "pharmacy_30",
+    "medicineId": "medicine_3",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_490",
+    "pharmacyId": "pharmacy_31",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_491",
+    "pharmacyId": "pharmacy_31",
+    "medicineId": "medicine_61",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_492",
+    "pharmacyId": "pharmacy_31",
+    "medicineId": "medicine_48",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_493",
+    "pharmacyId": "pharmacy_31",
+    "medicineId": "medicine_40",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_494",
+    "pharmacyId": "pharmacy_31",
+    "medicineId": "medicine_9",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_495",
+    "pharmacyId": "pharmacy_31",
+    "medicineId": "medicine_13",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_496",
+    "pharmacyId": "pharmacy_31",
+    "medicineId": "medicine_51",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_497",
+    "pharmacyId": "pharmacy_31",
+    "medicineId": "medicine_21",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_498",
+    "pharmacyId": "pharmacy_31",
+    "medicineId": "medicine_2",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_499",
+    "pharmacyId": "pharmacy_31",
+    "medicineId": "medicine_36",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_500",
+    "pharmacyId": "pharmacy_31",
+    "medicineId": "medicine_23",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_501",
+    "pharmacyId": "pharmacy_31",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_502",
+    "pharmacyId": "pharmacy_31",
+    "medicineId": "medicine_29",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_503",
+    "pharmacyId": "pharmacy_31",
+    "medicineId": "medicine_75",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_504",
+    "pharmacyId": "pharmacy_31",
+    "medicineId": "medicine_7",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_505",
+    "pharmacyId": "pharmacy_32",
+    "medicineId": "medicine_3",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_506",
+    "pharmacyId": "pharmacy_32",
+    "medicineId": "medicine_8",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_507",
+    "pharmacyId": "pharmacy_32",
+    "medicineId": "medicine_46",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_508",
+    "pharmacyId": "pharmacy_32",
+    "medicineId": "medicine_77",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_509",
+    "pharmacyId": "pharmacy_32",
+    "medicineId": "medicine_33",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_510",
+    "pharmacyId": "pharmacy_32",
+    "medicineId": "medicine_78",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_511",
+    "pharmacyId": "pharmacy_32",
+    "medicineId": "medicine_45",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_512",
+    "pharmacyId": "pharmacy_32",
+    "medicineId": "medicine_70",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_513",
+    "pharmacyId": "pharmacy_32",
+    "medicineId": "medicine_11",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_514",
+    "pharmacyId": "pharmacy_32",
+    "medicineId": "medicine_20",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_515",
+    "pharmacyId": "pharmacy_32",
+    "medicineId": "medicine_68",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_516",
+    "pharmacyId": "pharmacy_32",
+    "medicineId": "medicine_25",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_517",
+    "pharmacyId": "pharmacy_32",
+    "medicineId": "medicine_40",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_518",
+    "pharmacyId": "pharmacy_32",
+    "medicineId": "medicine_64",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_519",
+    "pharmacyId": "pharmacy_32",
+    "medicineId": "medicine_2",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_520",
+    "pharmacyId": "pharmacy_33",
+    "medicineId": "medicine_70",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_521",
+    "pharmacyId": "pharmacy_33",
+    "medicineId": "medicine_62",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_522",
+    "pharmacyId": "pharmacy_33",
+    "medicineId": "medicine_40",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_523",
+    "pharmacyId": "pharmacy_33",
+    "medicineId": "medicine_57",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_524",
+    "pharmacyId": "pharmacy_33",
+    "medicineId": "medicine_70",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_525",
+    "pharmacyId": "pharmacy_33",
+    "medicineId": "medicine_22",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_526",
+    "pharmacyId": "pharmacy_33",
+    "medicineId": "medicine_16",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_527",
+    "pharmacyId": "pharmacy_33",
+    "medicineId": "medicine_33",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_528",
+    "pharmacyId": "pharmacy_33",
+    "medicineId": "medicine_7",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_529",
+    "pharmacyId": "pharmacy_33",
+    "medicineId": "medicine_51",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_530",
+    "pharmacyId": "pharmacy_33",
+    "medicineId": "medicine_54",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_531",
+    "pharmacyId": "pharmacy_33",
+    "medicineId": "medicine_20",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_532",
+    "pharmacyId": "pharmacy_33",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_533",
+    "pharmacyId": "pharmacy_33",
+    "medicineId": "medicine_21",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_534",
+    "pharmacyId": "pharmacy_34",
+    "medicineId": "medicine_71",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_535",
+    "pharmacyId": "pharmacy_34",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_536",
+    "pharmacyId": "pharmacy_34",
+    "medicineId": "medicine_25",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_537",
+    "pharmacyId": "pharmacy_34",
+    "medicineId": "medicine_13",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_538",
+    "pharmacyId": "pharmacy_34",
+    "medicineId": "medicine_2",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_539",
+    "pharmacyId": "pharmacy_34",
+    "medicineId": "medicine_45",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_540",
+    "pharmacyId": "pharmacy_34",
+    "medicineId": "medicine_32",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_541",
+    "pharmacyId": "pharmacy_34",
+    "medicineId": "medicine_7",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_542",
+    "pharmacyId": "pharmacy_34",
+    "medicineId": "medicine_2",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_543",
+    "pharmacyId": "pharmacy_34",
+    "medicineId": "medicine_41",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_544",
+    "pharmacyId": "pharmacy_34",
+    "medicineId": "medicine_40",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_545",
+    "pharmacyId": "pharmacy_34",
+    "medicineId": "medicine_29",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_546",
+    "pharmacyId": "pharmacy_34",
+    "medicineId": "medicine_64",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_547",
+    "pharmacyId": "pharmacy_34",
+    "medicineId": "medicine_33",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_548",
+    "pharmacyId": "pharmacy_34",
+    "medicineId": "medicine_75",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_549",
+    "pharmacyId": "pharmacy_35",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_550",
+    "pharmacyId": "pharmacy_35",
+    "medicineId": "medicine_46",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_551",
+    "pharmacyId": "pharmacy_35",
+    "medicineId": "medicine_51",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_552",
+    "pharmacyId": "pharmacy_35",
+    "medicineId": "medicine_61",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_553",
+    "pharmacyId": "pharmacy_35",
+    "medicineId": "medicine_26",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_554",
+    "pharmacyId": "pharmacy_35",
+    "medicineId": "medicine_22",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_555",
+    "pharmacyId": "pharmacy_35",
+    "medicineId": "medicine_16",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_556",
+    "pharmacyId": "pharmacy_35",
+    "medicineId": "medicine_52",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_557",
+    "pharmacyId": "pharmacy_35",
+    "medicineId": "medicine_45",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_558",
+    "pharmacyId": "pharmacy_35",
+    "medicineId": "medicine_21",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_559",
+    "pharmacyId": "pharmacy_35",
+    "medicineId": "medicine_36",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_560",
+    "pharmacyId": "pharmacy_35",
+    "medicineId": "medicine_25",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_561",
+    "pharmacyId": "pharmacy_35",
+    "medicineId": "medicine_57",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_562",
+    "pharmacyId": "pharmacy_35",
+    "medicineId": "medicine_40",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_563",
+    "pharmacyId": "pharmacy_35",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_564",
+    "pharmacyId": "pharmacy_36",
+    "medicineId": "medicine_59",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_565",
+    "pharmacyId": "pharmacy_36",
+    "medicineId": "medicine_78",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_566",
+    "pharmacyId": "pharmacy_36",
+    "medicineId": "medicine_9",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_567",
+    "pharmacyId": "pharmacy_36",
+    "medicineId": "medicine_41",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_568",
+    "pharmacyId": "pharmacy_36",
+    "medicineId": "medicine_20",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_569",
+    "pharmacyId": "pharmacy_36",
+    "medicineId": "medicine_2",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_570",
+    "pharmacyId": "pharmacy_36",
+    "medicineId": "medicine_21",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_571",
+    "pharmacyId": "pharmacy_36",
+    "medicineId": "medicine_29",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_572",
+    "pharmacyId": "pharmacy_36",
+    "medicineId": "medicine_75",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_573",
+    "pharmacyId": "pharmacy_36",
+    "medicineId": "medicine_12",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_574",
+    "pharmacyId": "pharmacy_36",
+    "medicineId": "medicine_33",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_575",
+    "pharmacyId": "pharmacy_36",
+    "medicineId": "medicine_15",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_576",
+    "pharmacyId": "pharmacy_36",
+    "medicineId": "medicine_45",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_577",
+    "pharmacyId": "pharmacy_36",
+    "medicineId": "medicine_6",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_578",
+    "pharmacyId": "pharmacy_37",
+    "medicineId": "medicine_7",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_579",
+    "pharmacyId": "pharmacy_37",
+    "medicineId": "medicine_7",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_580",
+    "pharmacyId": "pharmacy_37",
+    "medicineId": "medicine_40",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_581",
+    "pharmacyId": "pharmacy_37",
+    "medicineId": "medicine_51",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_582",
+    "pharmacyId": "pharmacy_37",
+    "medicineId": "medicine_11",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_583",
+    "pharmacyId": "pharmacy_37",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_584",
+    "pharmacyId": "pharmacy_37",
+    "medicineId": "medicine_25",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_585",
+    "pharmacyId": "pharmacy_37",
+    "medicineId": "medicine_22",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_586",
+    "pharmacyId": "pharmacy_37",
+    "medicineId": "medicine_68",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_587",
+    "pharmacyId": "pharmacy_37",
+    "medicineId": "medicine_70",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_588",
+    "pharmacyId": "pharmacy_37",
+    "medicineId": "medicine_13",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_589",
+    "pharmacyId": "pharmacy_37",
+    "medicineId": "medicine_45",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_590",
+    "pharmacyId": "pharmacy_37",
+    "medicineId": "medicine_20",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_591",
+    "pharmacyId": "pharmacy_37",
+    "medicineId": "medicine_16",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_592",
+    "pharmacyId": "pharmacy_38",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_593",
+    "pharmacyId": "pharmacy_38",
+    "medicineId": "medicine_2",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_594",
+    "pharmacyId": "pharmacy_38",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_595",
+    "pharmacyId": "pharmacy_38",
+    "medicineId": "medicine_54",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_596",
+    "pharmacyId": "pharmacy_38",
+    "medicineId": "medicine_26",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_597",
+    "pharmacyId": "pharmacy_38",
+    "medicineId": "medicine_33",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_598",
+    "pharmacyId": "pharmacy_38",
+    "medicineId": "medicine_46",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_599",
+    "pharmacyId": "pharmacy_38",
+    "medicineId": "medicine_32",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_600",
+    "pharmacyId": "pharmacy_38",
+    "medicineId": "medicine_41",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_601",
+    "pharmacyId": "pharmacy_38",
+    "medicineId": "medicine_71",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_602",
+    "pharmacyId": "pharmacy_38",
+    "medicineId": "medicine_8",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_603",
+    "pharmacyId": "pharmacy_38",
+    "medicineId": "medicine_45",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_604",
+    "pharmacyId": "pharmacy_38",
+    "medicineId": "medicine_40",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_605",
+    "pharmacyId": "pharmacy_38",
+    "medicineId": "medicine_1",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_606",
+    "pharmacyId": "pharmacy_38",
+    "medicineId": "medicine_21",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_607",
+    "pharmacyId": "pharmacy_39",
+    "medicineId": "medicine_8",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_608",
+    "pharmacyId": "pharmacy_39",
+    "medicineId": "medicine_26",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_609",
+    "pharmacyId": "pharmacy_39",
+    "medicineId": "medicine_75",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_610",
+    "pharmacyId": "pharmacy_39",
+    "medicineId": "medicine_25",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_611",
+    "pharmacyId": "pharmacy_39",
+    "medicineId": "medicine_15",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_612",
+    "pharmacyId": "pharmacy_39",
+    "medicineId": "medicine_59",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_613",
+    "pharmacyId": "pharmacy_39",
+    "medicineId": "medicine_4",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_614",
+    "pharmacyId": "pharmacy_39",
+    "medicineId": "medicine_61",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_615",
+    "pharmacyId": "pharmacy_39",
+    "medicineId": "medicine_56",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_616",
+    "pharmacyId": "pharmacy_39",
+    "medicineId": "medicine_45",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_617",
+    "pharmacyId": "pharmacy_39",
+    "medicineId": "medicine_40",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_618",
+    "pharmacyId": "pharmacy_39",
+    "medicineId": "medicine_64",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_619",
+    "pharmacyId": "pharmacy_39",
+    "medicineId": "medicine_15",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_620",
+    "pharmacyId": "pharmacy_39",
+    "medicineId": "medicine_73",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_621",
+    "pharmacyId": "pharmacy_39",
+    "medicineId": "medicine_22",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  },
+  {
+    "id": "inventory_622",
+    "pharmacyId": "pharmacy_39",
+    "medicineId": "medicine_29",
+    "availability": "unverified",
+    "quantity": null,
+    "price": null,
+    "lastUpdated": null,
+    "source": "original_dataset"
+  }
+]

@@ -5,16 +5,6 @@ import type { Pharmacy, MapMarker } from '../../types';
 
 // Fix Leaflet default icon issue
 import L from 'leaflet';
-import markerIcon from 'leaflet/dist/images/marker-icon.png';
-import markerIcon2x from 'leaflet/dist/images/marker-icon-2x.png';
-import markerShadow from 'leaflet/dist/images/marker-shadow.png';
-
-delete (L.Icon.Default.prototype as any)._getIconUrl;
-L.Icon.Default.mergeOptions({
-  iconRetinaUrl: markerIcon2x,
-  iconUrl: markerIcon,
-  shadowUrl: markerShadow,
-});
 
 interface MapViewProps {
   center: [number, number];
@@ -71,8 +61,8 @@ function MarkerLayer({
         <div className="p-2 min-w-[200px]">
           <h3 className="font-semibold text-secondary-900">{pharmacy.name}</h3>
           <p className="text-sm text-secondary-500 mt-1">{pharmacy.address}</p>
-          {pharmacy.distanceKm && (
-            <p className="text-sm text-primary-600 mt-1">{pharmacy.distanceKm.toFixed(1)} km away</p>
+          {pharmacy.distance !== undefined && pharmacy.distance !== null && (
+            <p className="text-sm text-primary-600 mt-1">{pharmacy.distance.toFixed(1)} km away</p>
           )}
           <button
             onClick={onClick}
@@ -169,15 +159,4 @@ export function MiniMap({ center, zoom = 15, className, height = '150px' }: Mini
       />
     </MapContainer>
   );
-}
-
-interface MapViewProps {
-  center: [number, number];
-  zoom?: number;
-  markers: MapMarker[];
-  selectedMarkerId?: number;
-  onMarkerClick: (pharmacy: Pharmacy) => void;
-  onMapClick?: (lat: number, lng: number) => void;
-  className?: string;
-  height?: string;
 }

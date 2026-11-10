@@ -13,7 +13,7 @@ export interface Pharmacy {
   isActive: boolean;
   createdAt: string;
   updatedAt: string;
-  distanceKm?: number;
+  distance?: number; // Backend uses 'distance' field
   matchingMedicines?: MedicineInventory[];
 }
 
@@ -57,7 +57,7 @@ export interface PharmacyAvailability {
   latitude: number;
   longitude: number;
   phoneNumber?: string;
-  distanceKm?: number;
+  distance?: number;
   availabilityStatus: AvailabilityStatus;
   availabilityDisplay: string;
   price?: number;
@@ -87,28 +87,23 @@ export interface SearchRequest {
   verifiedOnly?: boolean;
 }
 
+// Backend response format for paginated endpoints
+export interface PaginatedResponse<T> {
+  data: T[];
+  total: number;
+  page: number;
+  limit: number;
+  totalPages: number;
+}
+
+// Backend response format for search endpoint
 export interface SearchResponse {
   pharmacies: Pharmacy[];
-  totalResults: number;
-  currentPage: number;
-  pageSize: number;
-  totalPages: number;
-  hasNext: boolean;
-  hasPrevious: boolean;
+  total: number;
   query: string;
   searchLatitude: number;
   searchLongitude: number;
   radiusKm: number;
-}
-
-export interface PaginatedResponse<T> {
-  content: T[];
-  totalElements: number;
-  totalPages: number;
-  currentPage: number;
-  pageSize: number;
-  hasNext: boolean;
-  hasPrevious: boolean;
 }
 
 export interface ApiError {
@@ -147,3 +142,7 @@ export interface GeocodeResult {
   address: string;
   placeId?: string;
 }
+
+// Re-export for convenience
+export type PaginatedPharmacyResponse = PaginatedResponse<Pharmacy>;
+export type PaginatedMedicineResponse = PaginatedResponse<Medicine>;
