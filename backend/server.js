@@ -27,6 +27,11 @@ function loadData(filePath) {
 }
 
 function saveData(filePath, data) {
+  // On Vercel, the filesystem is read-only except for /tmp
+  if (process.env.VERCEL === '1') {
+    console.warn('File write attempted on Vercel read-only filesystem. Admin write operations are not supported on Vercel.');
+    return false;
+  }
   try {
     fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
     return true;
@@ -476,6 +481,14 @@ app.get('/api/reverse-geocode', async (req, res) => {
 
 // Admin: Update inventory
 app.patch('/api/admin/inventory/:id', (req, res) => {
+  // On Vercel, the filesystem is read-only, so admin write operations are not supported
+  if (process.env.VERCEL === '1') {
+    return res.status(503).json({ 
+      error: 'Admin write operations are not supported on Vercel deployment. The filesystem is read-only.',
+      details: 'This feature requires a persistent filesystem. Consider using a database for production deployments.'
+    });
+  }
+
   const { availability, quantity, price } = req.body;
   const index = inventory.findIndex(inv => inv.id === req.params.id);
   
@@ -495,8 +508,13 @@ app.patch('/api/admin/inventory/:id', (req, res) => {
   }
 });
 
-// Start server
-app.listen(PORT, () => {
-  console.log(`MedConnect Backend running on http://localhost:${PORT}`);
-  console.log(`API endpoints available at http://localhost:${PORT}/api`);
-});
+// Start server only when not running on Vercel
+if (process.env.VERCEL !== '1') {
+  app.listen(PORT, () => {
+    console.log(`MedConnect Backend running on http://localhost:${PORT}`);
+    console.log(`API endpoints available at http://localhost:${PORT}/api`);
+  });
+}
+
+// Export the Express app for Vercel serverless functions
+module.exports = app;
