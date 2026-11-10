@@ -5,6 +5,7 @@ import { Button } from '../ui/Button';
 import { Badge } from '../ui/Badge';
 import { useGeolocation } from '../../hooks/useGeolocation';
 import { SearchHistoryService } from '../../services/searchHistory';
+import { useToast } from '../../components/ui/Toaster';
 import type { SearchHistoryItem, LocationCoords } from '../../types';
 
 interface SearchFormProps {
@@ -34,8 +35,10 @@ export function SearchForm({
     getCurrentLocation, 
     geocodeAddress, 
     searchAddresses, 
+    reverseGeocode,
     isLoading: isGeolocating 
   } = useGeolocation();
+  const { showToast } = useToast();
   const inputRef = useRef<HTMLInputElement>(null);
   const locationInputRef = useRef<HTMLInputElement>(null);
   const suggestionsRef = useRef<HTMLDivElement>(null);
@@ -124,10 +127,30 @@ export function SearchForm({
   const handleUseCurrentLocation = async () => {
     try {
       const coords = await getCurrentLocation();
-      setLocation(coords);
-      setAddress(coords.address || '');
+      // Get address from coordinates using reverse geocoding
+      const addressStr = await reverseGeocode(coords.latitude, coords.longitude);
+      const locationWithAddress = {
+        latitude: coords.latitude,
+        longitude: coords.longitude,
+        address: addressStr,
+      };
+      setLocation(locationWithAddress);
+      setAddress(addressStr);
+      showToast({
+        type: 'success',
+        title: 'Location found',
+        message: 'Using your current location for search',
+        duration: 3000,
+      });
     } catch (error) {
       console.error('Failed to get current location:', error);
+      const errorMessage = error instanceof Error ? error.message : 'Failed to get location';
+      showToast({
+        type: 'error',
+        title: 'Location access denied',
+        message: errorMessage + '. Please enter your location manually or enable location access in browser settings.',
+        duration: 5000,
+      });
     }
   };
 
@@ -272,29 +295,30 @@ export function SearchForm({
             aria-controls="location-suggestions"
             aria-expanded={addressSuggestions.length > 0}
           />
-          <div className="absolute right-4 top-1/2 -translate-y-1/2 flex items-center gap-1">
-            {isGeolocating && <Loader2 className="h-5 w-5 animate-spin text-primary-600" />}
+          {location && (
             <button
               type="button"
-              onClick={handleUseCurrentLocation}
-              disabled={isLoading || isGeolocating}
-              className="p-1.5 rounded-lg text-secondary-400 dark:text-secondary-500 hover:text-secondary-600 dark:hover:text-secondary-300 hover:bg-secondary-100 dark:hover:bg-secondary-700 transition-colors disabled:opacity-50"
-              aria-label="Use current location"
+              onClick={clearLocation}
+              className="absolute right-4 top-1/2 -translate-y-1/2 p-1.5 rounded-lg text-secondary-400 dark:text-secondary-500 hover:text-secondary-600 dark:hover:text-secondary-300 hover:bg-secondary-100 dark:hover:bg-secondary-700 transition-colors"
+              aria-label="Clear location"
             >
-              <MapPin className="h-5 w-5" />
+              <X className="h-5 w-5" />
             </button>
-            {location && (
-              <button
-                type="button"
-                onClick={clearLocation}
-                className="p-1.5 rounded-lg text-secondary-400 dark:text-secondary-500 hover:text-secondary-600 dark:hover:text-secondary-300 hover:bg-secondary-100 dark:hover:bg-secondary-700 transition-colors"
-                aria-label="Clear location"
-              >
-                <X className="h-5 w-5" />
-              </button>
             )}
-          </div>
         </div>
+        
+        {/* Use Current Location Button - More Visible */}
+        <button
+          type="button"
+          onClick={handleUseCurrentLocation}
+          disabled={isLoading || isGeolocating}
+          className="mt-2 w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-primary-600 text-white font-medium hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+          aria-label="Use current location"
+        >
+          {isGeolocating && <Loader2 className="h-5 w-5 animate-spin" />}
+          <MapPin className="h-5 w-5" />
+          <span>{isGeolocating ? 'Finding location...' : 'Use Current Location'}</span>
+        </button>
         
         <p className="mt-2 text-xs text-secondary-500 dark:text-secondary-400">
           Tip: Enter street name, town, mandal, or landmark (e.g., "MG Road, Vijayawada" or "Mangalagiri Bus Stand")
